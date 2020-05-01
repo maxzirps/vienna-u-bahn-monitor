@@ -7,6 +7,8 @@ import DayCycle from "./components/DayCycle";
 
 /** TODO:
  * Ideas:
+ * - change sun to just switch between moon and sun; no flying around;
+ * - include weather data
  * - time machine icon on start; on click flies into page to start
  * - date better animation; like rotate vertical
  */
@@ -28,7 +30,7 @@ const App: FunctionComponent = () => {
 
   return (
     <>
-      <DayCycle />
+      {/* <DayCycle /> */}
       <Container>
         <header>
           <Header />
