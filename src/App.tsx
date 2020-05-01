@@ -3,6 +3,12 @@ import Header from "./components/Header";
 import "./App.css";
 import Timeline from "./components/Timeline";
 
+/** TODO:
+ * Ideas:
+ * - time machine icon on start; on click flies into page to start
+ * - date better animation; like rotate vertical
+ */
+
 const App: FunctionComponent = () => {
   const startDate = new Date();
   startDate.setFullYear(startDate.getFullYear() - 1);
