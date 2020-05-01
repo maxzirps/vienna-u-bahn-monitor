@@ -1,7 +1,9 @@
 import React, { FunctionComponent, useState, useEffect } from "react";
+import { Container } from "semantic-ui-react";
 import Header from "./components/Header";
 import "./App.css";
 import Timeline from "./components/Timeline";
+import DayCycle from "./components/DayCycle";
 
 /** TODO:
  * Ideas:
@@ -21,16 +23,19 @@ const App: FunctionComponent = () => {
       newDate.setDate(newDate.getDate() + 1);
       setDate(newDate);
       setCounter(counter + 1);
-    }, 1000);
+    }, 5000);
   });
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
-        <Timeline date={date} percentage={(counter / 360) * 100} />
-      </header>
-    </div>
+    <>
+      <DayCycle />
+      <Container>
+        <header>
+          <Header />
+          <Timeline date={date} percentage={(counter / 360) * 100} />
+        </header>
+      </Container>
+    </>
   );
 };
 
