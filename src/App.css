@@ -53,8 +53,14 @@ main {
     width: 100%;
   }
 }
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 640px) and (max-width: 1200px) {
   #map-wrapper {
     width: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #map-wrapper {
+    width: 50%;
   }
 }
