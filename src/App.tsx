@@ -6,14 +6,44 @@ import SpeedSelector from "./components/SpeedSelector";
 import DaySelector from "./components/DaySelector";
 import Map from "./components/Map";
 
-export default class App extends Component<{}, { date: Date; speed: number }> {
+export default class App extends Component<
+  {},
+  { date: Date; speed: number; activeStations: string[] }
+> {
   timerID: number;
+
+  uSixStations: string[] = [
+    "siebenhirten",
+    "perfektastrasse",
+    "erlaaerstrasse",
+    "alterlaa",
+    "amschoepfwerk",
+    "tschertegasse",
+    "bahnhofmeidling",
+    "laengenfeldgasse",
+    "gumpendorferstrasse",
+    "westbahnhof",
+    "burggasse-stadthalle",
+    "thaliastrasse",
+    "josefstaedterstrasse",
+    "alserstrasse",
+    "michelbeuern-akh",
+    "waehringerstrasse-volksoper",
+    "nussdorferstrasse",
+    "spittelau",
+    "jaegerstrasse",
+    "dresdnerstrasse",
+    "handelskai",
+    "neuedonau",
+    "floridsdorf",
+  ];
 
   constructor(props: any) {
     super(props);
     this.state = {
       date: new Date(),
       speed: 1,
+      activeStations: [],
     };
     this.timerID = 0;
   }
@@ -37,10 +67,23 @@ export default class App extends Component<{}, { date: Date; speed: number }> {
     const newDate = new Date(date);
     newDate.setMinutes(newDate.getMinutes() + 1);
     this.setState({ date: newDate });
+
+    const { activeStations } = this.state;
+    const newActiveStations = [];
+    const currStation = activeStations.pop();
+    const currStationIndex = this.uSixStations.findIndex(
+      (stationName: string) => stationName === currStation
+    );
+    if (currStationIndex === -1) {
+      newActiveStations.push(this.uSixStations[0]);
+    } else {
+      newActiveStations.push(this.uSixStations[currStationIndex + 1]);
+    }
+    this.setState({ activeStations: newActiveStations });
   };
 
   render(): any {
-    const { date, speed } = this.state;
+    const { date, speed, activeStations } = this.state;
     return (
       <>
         <header>
@@ -63,7 +106,7 @@ export default class App extends Component<{}, { date: Date; speed: number }> {
           </div>
         </header>
         <main>
-          <Map />
+          <Map activeStations={activeStations} />
         </main>
       </>
     );
