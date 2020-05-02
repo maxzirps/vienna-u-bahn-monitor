@@ -4,39 +4,13 @@ import "./App.css";
 import DateTime from "./components/DateTime";
 import SpeedSelector from "./components/SpeedSelector";
 import DaySelector from "./components/DaySelector";
-import Map from "./components/Map";
+import Map from "./components/Map/Map";
 
 export default class App extends Component<
   {},
   { date: Date; speed: number; activeStations: string[] }
 > {
   timerID: number;
-
-  uSixStations: string[] = [
-    "siebenhirten",
-    "perfektastrasse",
-    "erlaaerstrasse",
-    "alterlaa",
-    "amschoepfwerk",
-    "tschertegasse",
-    "bahnhofmeidling",
-    "laengenfeldgasse",
-    "gumpendorferstrasse",
-    "westbahnhof",
-    "burggasse-stadthalle",
-    "thaliastrasse",
-    "josefstaedterstrasse",
-    "alserstrasse",
-    "michelbeuern-akh",
-    "waehringerstrasse-volksoper",
-    "nussdorferstrasse",
-    "spittelau",
-    "jaegerstrasse",
-    "dresdnerstrasse",
-    "handelskai",
-    "neuedonau",
-    "floridsdorf",
-  ];
 
   constructor(props: any) {
     super(props);
@@ -67,19 +41,6 @@ export default class App extends Component<
     const newDate = new Date(date);
     newDate.setMinutes(newDate.getMinutes() + 1);
     this.setState({ date: newDate });
-
-    const { activeStations } = this.state;
-    const newActiveStations = [];
-    const currStation = activeStations.pop();
-    const currStationIndex = this.uSixStations.findIndex(
-      (stationName: string) => stationName === currStation
-    );
-    if (currStationIndex === -1) {
-      newActiveStations.push(this.uSixStations[0]);
-    } else {
-      newActiveStations.push(this.uSixStations[currStationIndex + 1]);
-    }
-    this.setState({ activeStations: newActiveStations });
   };
 
   render(): any {
