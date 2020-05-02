@@ -1,44 +1,70 @@
-import React, { FunctionComponent, useState, useEffect } from "react";
-import { Container } from "semantic-ui-react";
+import React, { Component } from "react";
+import { Container, Grid } from "semantic-ui-react";
 import Header from "./components/Header";
 import "./App.css";
-import Timeline from "./components/Timeline";
-import DayCycle from "./components/DayCycle";
+import DateTime from "./components/DateTime";
+import SpeedSelector from "./components/SpeedSelector";
+import DaySelector from "./components/DaySelector";
 
-/** TODO:
- * Ideas:
- * - change sun to just switch between moon and sun; no flying around;
- * - include weather data
- * - time machine icon on start; on click flies into page to start
- * - date better animation; like rotate vertical
- */
+export default class App extends Component<{}, { date: Date; speed: number }> {
+  timerID: number;
 
-const App: FunctionComponent = () => {
-  const startDate = new Date();
-  startDate.setFullYear(startDate.getFullYear() - 1);
-  const [date, setDate] = useState<Date>(startDate);
-  const [counter, setCounter] = useState<number>(0);
+  constructor(props: any) {
+    super(props);
+    this.state = {
+      date: new Date(),
+      speed: 1,
+    };
+    this.timerID = 0;
+  }
 
-  useEffect(() => {
-    setTimeout(() => {
-      const newDate = new Date(date);
-      newDate.setDate(newDate.getDate() + 1);
-      setDate(newDate);
-      setCounter(counter + 1);
-    }, 5000);
-  });
+  componentDidMount(): void {
+    this.setTimer();
+  }
 
-  return (
-    <>
-      {/* <DayCycle /> */}
-      <Container>
-        <header>
-          <Header />
-          <Timeline date={date} percentage={(counter / 360) * 100} />
-        </header>
-      </Container>
-    </>
-  );
-};
+  componentWillUnmount(): void {
+    clearInterval(this.timerID);
+  }
 
-export default App;
+  setTimer = (): void => {
+    clearInterval(this.timerID);
+    const { speed } = this.state;
+    this.timerID = setInterval(() => this.increaseHour(), 1000 / speed);
+  };
+
+  increaseHour = (): void => {
+    const { date } = this.state;
+    const newDate = new Date(date);
+    newDate.setMinutes(newDate.getMinutes() + 1);
+    this.setState({ date: newDate });
+  };
+
+  render(): any {
+    const { date, speed } = this.state;
+    return (
+      <>
+        <Container>
+          <header>
+            <Header />
+            <Grid columns="equal" container divided>
+              <Grid.Column textAlign="center">
+                <DateTime date={date} />
+              </Grid.Column>
+              <Grid.Column textAlign="center">
+                <DaySelector />
+              </Grid.Column>
+              <Grid.Column textAlign="center">
+                <SpeedSelector
+                  speed={speed}
+                  changeSpeed={(newSpeed: number): void => {
+                    this.setState({ speed: newSpeed }, () => this.setTimer());
+                  }}
+                />
+              </Grid.Column>
+            </Grid>
+          </header>
+        </Container>
+      </>
+    );
+  }
+}
