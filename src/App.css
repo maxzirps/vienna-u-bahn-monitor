@@ -3,13 +3,6 @@
   src: url(./fonts/Underground.ttf) format("woff");
 }
 
-body {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
 #header {
   text-align: center;
 }
@@ -47,4 +40,21 @@ main {
 
 .dayselector-radio-button {
   font-size: 5em;
+}
+
+#map-wrapper {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-height: 1024px) {
+  #map-wrapper {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 640px) {
+  #map-wrapper {
+    width: 90%;
+  }
 }

@@ -6,9 +6,6 @@ import SpeedSelector from "./components/SpeedSelector";
 import DaySelector from "./components/DaySelector";
 import Map from "./components/Map";
 
-/** TODO: credit for svg https://commons.wikimedia.org/wiki/File:U-Bahn_Wien,_Netzplan.svg
- *
- */
 export default class App extends Component<{}, { date: Date; speed: number }> {
   timerID: number;
 
