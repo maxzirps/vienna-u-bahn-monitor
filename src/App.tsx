@@ -1,11 +1,14 @@
 import React, { Component } from "react";
-import { Container, Grid } from "semantic-ui-react";
 import Header from "./components/Header";
 import "./App.css";
 import DateTime from "./components/DateTime";
 import SpeedSelector from "./components/SpeedSelector";
 import DaySelector from "./components/DaySelector";
+import Map from "./components/Map";
 
+/** TODO: credit for svg https://commons.wikimedia.org/wiki/File:U-Bahn_Wien,_Netzplan.svg
+ *
+ */
 export default class App extends Component<{}, { date: Date; speed: number }> {
   timerID: number;
 
@@ -43,27 +46,28 @@ export default class App extends Component<{}, { date: Date; speed: number }> {
     const { date, speed } = this.state;
     return (
       <>
-        <Container>
-          <header>
-            <Header />
-            <Grid columns="equal" container divided>
-              <Grid.Column textAlign="center">
-                <DateTime date={date} />
-              </Grid.Column>
-              <Grid.Column textAlign="center">
-                <DaySelector />
-              </Grid.Column>
-              <Grid.Column textAlign="center">
-                <SpeedSelector
-                  speed={speed}
-                  changeSpeed={(newSpeed: number): void => {
-                    this.setState({ speed: newSpeed }, () => this.setTimer());
-                  }}
-                />
-              </Grid.Column>
-            </Grid>
-          </header>
-        </Container>
+        <header>
+          <Header />
+          <div id="controlbar">
+            <div>
+              <DateTime date={date} />
+            </div>
+            <div>
+              <DaySelector />
+            </div>
+            <div>
+              <SpeedSelector
+                speed={speed}
+                changeSpeed={(newSpeed: number): void => {
+                  this.setState({ speed: newSpeed }, () => this.setTimer());
+                }}
+              />
+            </div>
+          </div>
+        </header>
+        <main>
+          <Map />
+        </main>
       </>
     );
   }

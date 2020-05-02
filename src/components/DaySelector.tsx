@@ -1,5 +1,4 @@
 import React from "react";
-import { Radio, Form } from "semantic-ui-react";
 
 export default class DaySelector extends React.Component<
   {},
@@ -15,35 +14,28 @@ export default class DaySelector extends React.Component<
   render(): any {
     const { selected } = this.state;
     return (
-      <Form>
-        <Form.Field>
-          <Radio
-            label="Mon-Fri"
-            name="radioGroup"
+      <form>
+        <label htmlFor="weekday">
+          <input
+            id="weekday"
+            type="radio"
             value="weekday"
             checked={selected === "weekday"}
             onChange={(): void => this.setState({ selected: "weekday" })}
           />
-        </Form.Field>
-        <Form.Field>
-          <Radio
-            label="Sat"
-            name="radioGroup"
-            value="sat"
-            checked={selected === "sat"}
-            onChange={(): void => this.setState({ selected: "sat" })}
+          Weekday
+        </label>
+        <label htmlFor="weekend">
+          <input
+            id="weekend"
+            type="radio"
+            value="weekend"
+            checked={selected === "weekend"}
+            onChange={(): void => this.setState({ selected: "weekend" })}
           />
-        </Form.Field>
-        <Form.Field>
-          <Radio
-            label="Sun"
-            name="radioGroup"
-            value="sun"
-            checked={selected === "sun"}
-            onChange={(): void => this.setState({ selected: "sun" })}
-          />
-        </Form.Field>
-      </Form>
+          Weekend
+        </label>
+      </form>
     );
   }
 }

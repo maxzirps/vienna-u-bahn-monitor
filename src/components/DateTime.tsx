@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from "react";
-import { Segment } from "semantic-ui-react";
 import Dial from "./Dial";
 
 const DateTime: FunctionComponent<{ date: Date }> = ({
@@ -8,16 +7,18 @@ const DateTime: FunctionComponent<{ date: Date }> = ({
   date: Date;
 }) => (
   <>
-    <Segment>
+    <div>
       <Dial num={date.getHours()} />
       :
       <Dial num={date.getMinutes()} />
+    </div>
+    <div>
       <Dial num={date.getDate()} />
       -
       <Dial num={date.getMonth() + 1} />
       -
       <Dial num={date.getFullYear()} />
-    </Segment>
+    </div>
   </>
 );
 

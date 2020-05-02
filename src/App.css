@@ -3,22 +3,48 @@
   src: url(./fonts/Underground.ttf) format("woff");
 }
 
-#header {
-  text-align: center;
-  padding: 2em;
-  font-family: "Times New Roman", Times, serif;
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
+#header {
+  text-align: center;
+}
 #header h1 {
-  font-size: 500%;
+  font-size: 5em;
   font-family: "Underground";
+  padding: 0.3em;
   font-weight: 1;
 }
 
-#timeline {
-  text-align: center;
+@media screen and (max-width: 480px) {
+  #header h1 {
+    font-size: 3em;
+  }
 }
 
 .dial {
   padding: 3px;
+}
+
+main {
+  text-align: center;
+}
+
+#controlbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#controlbar > div {
+  padding: 1em;
+}
+
+.dayselector-radio-button {
+  font-size: 5em;
 }
