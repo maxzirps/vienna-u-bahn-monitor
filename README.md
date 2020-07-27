@@ -1,2 +1,4 @@
 # Vienna U-Bahn Time-Lapse 
-![build](https://github.com/zirmax/vienna-u-bahn-time-lapse/workflows/build/badge.svg?branch=master&event=push) ![version](https://img.shields.io/github/package-json/v/zirmax/vienna-u-bahn-time-lapse?style=flat)
+![Build and Deploy](https://github.com/zirmax/vienna-u-bahn-time-lapse/workflows/Build%20and%20Deploy/badge.svg?branch=master) ![version](https://img.shields.io/github/package-json/v/zirmax/vienna-u-bahn-time-lapse?style=flat)
+
+See it live [here](https://zirmax.github.io/vienna-u-bahn-time-lapse)
