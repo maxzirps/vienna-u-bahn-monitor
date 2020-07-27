@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["document","getElementById","innerHTML"],"mappings":";;;AAEA,aAFA,QAAA,eAEAA,SAASC,eAAe,QAAQC,UAAY","file":"src.c578c768.js","sourceRoot":"../src","sourcesContent":["import './index.css';\n\ndocument.getElementById(\"root\").innerHTML = \"HALLo\"\n"]}
