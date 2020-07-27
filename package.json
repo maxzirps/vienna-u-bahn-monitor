@@ -15,7 +15,7 @@
   },
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --public-url /vienna-u-bahn-time-lapse/"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
