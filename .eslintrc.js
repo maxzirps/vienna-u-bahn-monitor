@@ -5,17 +5,13 @@ module.exports = {
   },
   extends: [
     "plugin:prettier/recommended",
-    "prettier/@typescript-eslint",
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
     "airbnb",
   ],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
   },
-  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -23,7 +19,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
-  plugins: ["prettier", "react", "@typescript-eslint"],
+  plugins: ["prettier", "react"],
   rules: {
     quotes: [2, "double", { avoidEscape: true }],
     "react/jsx-filename-extension": [
