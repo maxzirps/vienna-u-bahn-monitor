@@ -28,11 +28,7 @@ footer {
   text-align: right;
 }
 
-@media screen and (max-width: 992px) {
-  footer {
-    padding: 0.5rem;
-  }
-}
+
 
 a {
   color: #415A77;
@@ -48,6 +44,15 @@ a {
   margin-bottom: 0.2rem;
 }
 
-#root {
-  height: 70vh;
+#graph {
+  height: 80vh;
+}
+
+@media screen and (max-height: 800px) {
+  footer {
+    padding: 0.5rem;
+  }
+  #graph {
+    height: 70vh
+  }
 }

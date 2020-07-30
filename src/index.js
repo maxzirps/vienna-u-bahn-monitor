@@ -1,114 +1,67 @@
-import "./index.css";
-import * as d3 from "d3";
-const stationNames = require("./stationNames.json");
-const data = {
-  links: [],
-  nodes: [],
-};
+// 920x580 pixels -> scale to current when drawing
+const stations = require("./stations.json");
 
-Object.keys(stationNames).forEach((line, i) => {
-  stationNames[line].forEach((station, x) => {
-    data.nodes.push({
-      name: station,
-      id: parseInt(line.substr(1)) * 100 + x,
-    });
-    x > 0 &&
-      data.links.push({
-        source: parseInt(line.substr(1)) * 100 + x - 1,
-        target: parseInt(line.substr(1)) * 100 + x,
-      });
+var elem = document.getElementById("graph");
+var params = { width: elem.offsetWidth, height: elem.offsetHeight };
+var original = { width: 920, height: 580 };
+const scalingX = params.width / original.width;
+const scalingY = params.height / original.height;
+var two = new Two(params).appendTo(elem);
+
+const circles = {};
+
+Object.keys(stations).forEach((line, i) => {
+  const circlesOfStation = []
+  const XY = []
+  stations[line].forEach((station, z) => {
+    const x = station.x * scalingX;
+    const y = station.y * scalingY;
+    XY.push({x, y, name: station.name})
   });
-});
-
-// add intersection links
-const allStationNames = data.nodes.map((node) => node.name);
-const intersections = allStationNames.filter(
-  (item, index) => allStationNames.indexOf(item) != index
-);
-intersections.forEach((intersection) => {
-  const intersectionNodes = data.nodes.filter(
-    (node) => node.name === intersection
-  );
-  for (let i = 0; i < intersectionNodes.length - 1; i++) {
-    data.links.push({
-      source: intersectionNodes[i].id,
-      target: intersectionNodes[i + 1].id,
-    });
+  for(let i = 0; i < XY.length-1; i++) {
+    const connection = two.makeLine(XY[i].x, XY[i].y, XY[i+1].x, XY[i+1].y)
+    connection.stroke = getColorForLine(line)
+    connection.linewidth = 5
+    connection.curved = true
   }
+  XY.forEach((station) => { const circle = two.makeCircle(station.x, station.y, 5)
+    circle.fill = "#fff";
+    circle.stroke = "#000";
+    circle.linewidth = 1;
+    const text = two.makeText(station.name, station.x, station.y-20)
+    text.rotation = 5.2
+  })
 });
-const rootDiv = document.getElementById("root");
-const height = rootDiv.clientHeight*1.5;
-const width =  rootDiv.clientWidth*1.5;
-const color = (d) => {
-  switch (true) {
-    case d.id < 200:
-      // U1
-      return "red";
+// two has convenience methods to create shapes.
+// var circle = two.makeCircle(500, 100, 30);
+
+// The object returned has many stylable properties:
+// circle.fill = "#FF8000";
+// circle.stroke = "orangered"; // Accepts all valid css color
+// circle.linewidth = 5;
+
+// Don't forget to tell two to render everything
+// to the screen
+two.update();
+
+function getColorForLine(line) {
+  switch (line) {
+    case "u1":
+      return "#f00";
       break;
-    case d.id < 300:
-      // U2
-      return "purple";
+    case "u2":
+      return "#986aae";
       break;
-    case d.id < 400:
-      // U3
-      return "orange";
+    case "u3":
+      return "#ff9a00";
       break;
-    case d.id < 500:
-      // U4
-      return "green";
+    case "u4":
+      return "#008b3b";
       break;
-    case d.id < 700:
-      // U6
-      return "brown";
+    case "u6":
+      return "#a53505";
       break;
     default:
-      return "#1f77b4";
+      return "#cecece";
   }
-};
-
-const links = data.links.map((d) => Object.create(d));
-const nodes = data.nodes.map((d) => Object.create(d));
-
-const simulation = d3
-  .forceSimulation(nodes)
-  .force(
-    "link",
-    d3.forceLink(links).id((d) => d.id)
-  )
-  .force("charge", d3.forceManyBody())
-  .force("center", d3.forceCenter(width / 2, height / 2));
-
-
-const svg = d3.create("svg").attr("viewBox", [0, 0, width, height]);
-
-const link = svg
-  .append("g")
-  .attr("stroke", "#999")
-  .attr("stroke-opacity", 0.6)
-  .selectAll("line")
-  .data(links)
-  .join("line")
-  .attr("stroke-width", (d) => Math.sqrt(d.value));
-
-const node = svg
-  .append("g")
-  .attr("stroke", "#fff")
-  .attr("stroke-width", 1.5)
-  .selectAll("circle")
-  .data(nodes)
-  .join("circle")
-  .attr("r", 5)
-  .attr("fill", color);
-
-simulation.on("tick", () => {
-  link
-    .attr("x1", (d) => d.source.x)
-    .attr("y1", (d) => d.source.y)
-    .attr("x2", (d) => d.target.x)
-    .attr("y2", (d) => d.target.y);
-
-  node.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
-});
-
-
-d3.select("#root").append(() => svg.node());
+}
