@@ -2,240 +2,225 @@
   "u1": [
     {
       "name": "oberlaa",
-      "x": 0,
-      "y": 0
+      "x": 565,
+      "y": 568
     },
     {
       "name": "neulaa",
-      "x": 0,
-      "y": 0
+      "x": 536,
+      "y": 568
     },
     {
       "name": "alaudagasse",
-      "x": 0,
-      "y": 0
+      "x": 515,
+      "y": 549
     },
     {
       "name": "alteslandgut",
-      "x": 0,
-      "y": 0
+      "x": 497,
+      "y": 529
     },
     {
       "name": "troststrasse",
-      "x": 0,
-      "y": 0
+      "x": 497,
+      "y": 500
     },
     {
       "name": "reumanplatz",
-      "x": 0,
-      "y": 0
+      "x": 497,
+      "y": 471
     },
     {
       "name": "keplerplatz",
-      "x": 0,
-      "y": 0
+      "x": 497,
+      "y": 442
     },
     {
       "name": "hauptbahnhof",
-      "x": 0,
-      "y": 0
+      "x": 497,
+      "y": 413
     },
     {
       "name": "taubstummengasse",
-      "x": 0,
-      "y": 0
+      "x": 497,
+      "y": 384
     },
     {
       "name": "karlsplatz",
-      "x": 0,
-      "y": 0
+      "x": 497,
+      "y": 355
     },
     {
       "name": "stephansplatz",
-      "x": 0,
-      "y": 0
+      "x": 497,
+      "y": 278
     },
     {
       "name": "schwedenplatz",
-      "x": 0,
-      "y": 0
+      "x": 533,
+      "y": 223
     },
     {
       "name": "nestroyplatz",
-      "x": 0,
-      "y": 0
+      "x": 551,
+      "y": 206
     },
     {
       "name": "praterstern",
-      "x": 0,
-      "y": 0
+      "x": 572,
+      "y": 185
     },
     {
       "name": "vorgartenstrasse",
-      "x": 0,
-      "y": 0
+      "x": 594,
+      "y": 163
     },
     {
       "name": "donauinsel",
-      "x": 0,
-      "y": 0
+      "x": 613,
+      "y": 143
     },
     {
       "name": "kaisermuehlen",
-      "x": 0,
-      "y": 0
+      "x": 634,
+      "y": 124
     },
     {
       "name": "altedonau",
-      "x": 0,
-      "y": 0
+      "x": 652,
+      "y": 106
     },
     {
       "name": "kagran",
-      "x": 0,
-      "y": 0
+      "x": 669,
+      "y": 88
     },
     {
       "name": "kagranerplatz",
-      "x": 0,
-      "y": 0
+      "x": 687,
+      "y": 70
     },
     {
       "name": "rennbahnweg",
-      "x": 0,
-      "y": 0
+      "x": 702,
+      "y": 55
     },
     {
       "name": "aderklaaerstrasse",
-      "x": 0,
-      "y": 0
+      "x": 717,
+      "y": 39
     },
     {
       "name": "grossfeldsiedlung",
-      "x": 0,
-      "y": 0
+      "x": 733,
+      "y": 24
     },
     {
       "name": "leopoldau",
-      "x": 0,
-      "y": 0
+      "x": 751,
+      "y": 6
     }
   ],
   "u2": [
     {
       "name": "seestadt",
-      "x": 0,
-      "y": 0
+      "x": 901,
+      "y": 169
     },
     {
       "name": "aspernnord",
-      "x": 0,
-      "y": 0
+      "x": 886,
+      "y": 150
     },
     {
       "name": "hausfelderstrasse",
-      "x": 0,
-      "y": 0
+      "x": 855,
+      "y": 150
     },
     {
       "name": "aspernstrasse",
-      "x": 0,
-      "y": 0
+      "x": 836,
+      "y": 177
     },
     {
       "name": "donauspital",
-      "x": 0,
-      "y": 0
+      "x": 800,
+      "y": 177
     },
     {
       "name": "hardeggasse",
-      "x": 0,
-      "y": 0
+      "x": 758,
+      "y": 177
     },
     {
       "name": "stadlau",
-      "x": 0,
-      "y": 0
+      "x": 740,
+      "y": 199
     },
     {
       "name": "donaustadtbruecke",
-      "x": 0,
-      "y": 0
+      "x": 729,
+      "y": 220
     },
     {
       "name": "donaumarina",
-      "x": 0,
-      "y": 0
+      "x": 714,
+      "y": 243
     },
     {
       "name": "stadion",
-      "x": 0,
-      "y": 0
+      "x": 673,
+      "y": 229
     },
     {
       "name": "krieau",
-      "x": 0,
-      "y": 0
+      "x": 650,
+      "y": 209
     },
     {
       "name": "messe-prater",
-      "x": 0,
-      "y": 0
+      "x": 620,
+      "y": 184
     },
     {
       "name": "praterstern",
-      "x": 0,
-      "y": 0
+      "x": 570,
+      "y": 185
     },
     {
       "name": "taborstrasse",
-      "x": 0,
-      "y": 0
+      "x": 534,
+      "y": 185
     },
     {
       "name": "schottenring",
-      "x": 0,
-      "y": 0
+      "x": 494,
+      "y": 185
     },
     {
       "name": "schottentor",
-      "x": 0,
-      "y": 0
+      "x": 460,
+      "y": 217
     },
     {
       "name": "rathaus",
-      "x": 0,
-      "y": 0
+      "x": 435,
+      "y": 244
     },
     {
       "name": "volkstheater",
-      "x": 0,
-      "y": 0
+      "x": 434,
+      "y": 278
     },
     {
       "name": "museumsquartier",
-      "x": 0,
-      "y": 0
+      "x": 434,
+      "y": 317
     },
     {
       "name": "karlsplatz",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "name": "rathaus",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "name": "neubaugasse",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "name": "pilgramgasse",
-      "x": 0,
-      "y": 0
+      "x": 495,
+      "y": 347
     }
   ],
   "u3": [
