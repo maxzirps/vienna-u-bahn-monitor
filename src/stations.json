@@ -948,9 +948,9 @@
       "x": 294,
       "y": 557,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "siebenhirten",
+        "x": 50,
+        "y": 0,
+        "text": "Siebenhirten",
         "rotation": 0
       }
     },
@@ -959,9 +959,9 @@
       "x": 294,
       "y": 531,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "perfektastrasse",
+        "x": 60,
+        "y": 0,
+        "text": "Perfektastrasse",
         "rotation": 0
       }
     },
@@ -970,9 +970,9 @@
       "x": 294,
       "y": 505,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "erlaaerstrasse",
+        "x": 58,
+        "y": 0,
+        "text": "Erlaaerstrasse",
         "rotation": 0
       }
     },
@@ -981,9 +981,9 @@
       "x": 294,
       "y": 479,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "alterlaa",
+        "x": 35,
+        "y": 0,
+        "text": "Alterlaa",
         "rotation": 0
       }
     },
@@ -992,9 +992,9 @@
       "x": 294,
       "y": 453,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "amschoepfwerk",
+        "x": 60,
+        "y": 0,
+        "text": "Am Schöpfwerk",
         "rotation": 0
       }
     },
@@ -1003,9 +1003,9 @@
       "x": 294,
       "y": 427,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "tschertegasse",
+        "x": 55,
+        "y": 0,
+        "text": "Tschertegasse",
         "rotation": 0
       }
     },
@@ -1014,9 +1014,9 @@
       "x": 294,
       "y": 401,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "bahnhofmeidling",
+        "x": 60,
+        "y": 0,
+        "text": "Bahnof Meidling",
         "rotation": 0
       }
     },
@@ -1025,9 +1025,9 @@
       "x": 294,
       "y": 370,
       "label": {
-        "x": 5,
+        "x": 60,
         "y": 10,
-        "text": "laengenfeldgasse",
+        "text": "Längenfeldgasse",
         "rotation": 0
       }
     },
@@ -1036,9 +1036,9 @@
       "x": 294,
       "y": 316,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "gumpendorferstrasse",
+        "x": 80,
+        "y": 0,
+        "text": "Gumpendorferstrasse",
         "rotation": 0
       }
     },
@@ -1047,9 +1047,9 @@
       "x": 294,
       "y": 278,
       "label": {
-        "x": 5,
+        "x": -60,
         "y": 10,
-        "text": "westbahnhof",
+        "text": "Westbahnhof",
         "rotation": 0
       }
     },
@@ -1058,9 +1058,9 @@
       "x": 294,
       "y": 250,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "burggasse-stadthalle",
+        "x": 77,
+        "y": 0,
+        "text": "Burggasse-Stadthalle",
         "rotation": 0
       }
     },
@@ -1069,9 +1069,9 @@
       "x": 294,
       "y": 228,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "thaliastrasse",
+        "x": 50,
+        "y": 0,
+        "text": "Thaliastrasse",
         "rotation": 0
       }
     },
@@ -1080,9 +1080,9 @@
       "x": 294,
       "y": 205,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "josefstaedterstrasse",
+        "x": 70,
+        "y": 0,
+        "text": "Josefstädterstrasse",
         "rotation": 0
       }
     },
@@ -1091,9 +1091,9 @@
       "x": 294,
       "y": 181,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "alserstrasse",
+        "x": 50,
+        "y": 0,
+        "text": "Alserstrasse",
         "rotation": 0
       }
     },
@@ -1102,9 +1102,9 @@
       "x": 294,
       "y": 153,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "michelbeuern-akh",
+        "x": 68,
+        "y": 0,
+        "text": "Michelbeuern-AKH",
         "rotation": 0
       }
     },
@@ -1113,9 +1113,9 @@
       "x": 294,
       "y": 118,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "waehringerstrasse-volksoper",
+        "x": 100,
+        "y": 3,
+        "text": "Währingerstrasse-Volksoper",
         "rotation": 0
       }
     },
@@ -1124,9 +1124,9 @@
       "x": 335,
       "y": 76,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "nussdorferstrasse",
+        "x": 0,
+        "y": -12,
+        "text": "Nussdorferstrasse",
         "rotation": 0
       }
     },
@@ -1135,10 +1135,10 @@
       "x": 370,
       "y": 76,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "spittelau",
-        "rotation": 0
+        "x": 18,
+        "y": -30,
+        "text": "Spittelau",
+        "rotation": 5.5
       }
     },
     {
@@ -1146,10 +1146,10 @@
       "x": 410,
       "y": 76,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "jaegerstrasse",
-        "rotation": 0
+        "x": 18,
+        "y": -40,
+        "text": "Jägerstrasse",
+        "rotation": 5.5
       }
     },
     {
@@ -1157,10 +1157,10 @@
       "x": 450,
       "y": 76,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "dresdnerstrasse",
-        "rotation": 0
+        "x": 35,
+        "y": -50,
+        "text": "Dresdnerstrasse",
+        "rotation": 5.5
       }
     },
     {
@@ -1168,9 +1168,9 @@
       "x": 490,
       "y": 76,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "handelskai",
+        "x": 50,
+        "y": 3,
+        "text": "Handelskai",
         "rotation": 0
       }
     },
@@ -1179,9 +1179,9 @@
       "x": 522,
       "y": 42,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "neuedonau",
+        "x": 50,
+        "y": 5,
+        "text": "Neue Donau",
         "rotation": 0
       }
     },
@@ -1190,9 +1190,9 @@
       "x": 556,
       "y": 8,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "floridsdorf",
+        "x": 45,
+        "y": 0,
+        "text": "Floridsdorf",
         "rotation": 0
       }
     }
