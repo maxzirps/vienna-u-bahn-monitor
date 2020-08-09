@@ -726,10 +726,10 @@
       "x": 6,
       "y": 365,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "huetteldorf",
-        "rotation": 0
+        "x": 20,
+        "y": -35,
+        "text": "Hütteldorf",
+        "rotation": 5.5
       }
     },
     {
@@ -737,10 +737,10 @@
       "x": 46,
       "y": 365,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "oberstveit",
-        "rotation": 0
+        "x": 25,
+        "y": -40,
+        "text": "Ober St. Veit",
+        "rotation": 5.5
       }
     },
     {
@@ -748,10 +748,10 @@
       "x": 86,
       "y": 365,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "unterstveit",
-        "rotation": 0
+        "x": 25,
+        "y": -40,
+        "text": "Unter St. Veit",
+        "rotation": 5.5
       }
     },
     {
@@ -759,10 +759,10 @@
       "x": 126,
       "y": 365,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "braunschweiggasse",
-        "rotation": 0
+        "x": 40,
+        "y": -55,
+        "text": "Braunschweiggasse",
+        "rotation": 5.5
       }
     },
     {
@@ -770,10 +770,10 @@
       "x": 166,
       "y": 365,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "hietzing",
-        "rotation": 0
+        "x": 20,
+        "y": -35,
+        "text": "Hietzing",
+        "rotation": 5.5
       }
     },
     {
@@ -781,10 +781,10 @@
       "x": 206,
       "y": 365,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "schoenbrunn",
-        "rotation": 0
+        "x": 30,
+        "y": -40,
+        "text": "Schönbrunn",
+        "rotation": 5.5
       }
     },
     {
@@ -792,32 +792,26 @@
       "x": 246,
       "y": 365,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "meidlinghauptstrasse",
-        "rotation": 0
+        "x": 50,
+        "y": -65,
+        "text": "Meidling Hauptstrasse",
+        "rotation": 5.5
       }
     },
     {
       "name": "laengenfeldgasse",
       "x": 295,
-      "y": 365,
-      "label": {
-        "x": 5,
-        "y": 10,
-        "text": "laengenfeldgasse",
-        "rotation": 0
-      }
+      "y": 365
     },
     {
       "name": "margartenguertel",
       "x": 340,
       "y": 365,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "margartenguertel",
-        "rotation": 0
+        "x": 35,
+        "y": -50,
+        "text": "Margaretengürtel",
+        "rotation": 5.5
       }
     },
     {
@@ -825,10 +819,10 @@
       "x": 380,
       "y": 365,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "pilgramgasse",
-        "rotation": 0
+        "x": 30,
+        "y": -45,
+        "text": "Pilgramgasse",
+        "rotation": 5.5
       }
     },
     {
@@ -836,31 +830,25 @@
       "x": 420,
       "y": 365,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "kettenbrueckengasse",
+        "x": 0,
+        "y": 15,
+        "text": "Kettenbrückengasse",
         "rotation": 0
       }
     },
     {
       "name": "karlsplatz",
       "x": 460,
-      "y": 365,
-      "label": {
-        "x": 5,
-        "y": 10,
-        "text": "karlsplatz",
-        "rotation": 0
-      }
+      "y": 365
     },
     {
       "name": "stadtpark",
       "x": 550,
       "y": 330,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "stadtpark",
+        "x": 40,
+        "y": 0,
+        "text": "Stadtpark",
         "rotation": 0
       }
     },
@@ -869,42 +857,30 @@
       "x": 564,
       "y": 280,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "landstrasse",
+        "x": 47,
+        "y": 0,
+        "text": "Landstrasse",
         "rotation": 0
       }
     },
     {
       "name": "schwedenplatz",
       "x": 533,
-      "y": 224,
-      "label": {
-        "x": 5,
-        "y": 10,
-        "text": "schwedenplatz",
-        "rotation": 0
-      }
+      "y": 224
     },
     {
       "name": "schottenring",
       "x": 495,
-      "y": 185,
-      "label": {
-        "x": 5,
-        "y": 10,
-        "text": "schottenring",
-        "rotation": 0
-      }
+      "y": 185
     },
     {
       "name": "rossauerlaende",
       "x": 469,
       "y": 159,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "rossauerlaende",
+        "x": 60,
+        "y": -4,
+        "text": "Rossauerlaende",
         "rotation": 0
       }
     },
@@ -913,31 +889,25 @@
       "x": 440,
       "y": 130,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "friedensbruecke",
+        "x": 60,
+        "y": -4,
+        "text": "Friedensbruecke",
         "rotation": 0
       }
     },
     {
       "name": "spittelau",
       "x": 385,
-      "y": 75,
-      "label": {
-        "x": 5,
-        "y": 10,
-        "text": "spittelau",
-        "rotation": 0
-      }
+      "y": 75
     },
     {
       "name": "heiligenstadt",
       "x": 385,
       "y": 8,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "heiligenstadt",
+        "x": 50,
+        "y": 0,
+        "text": "Heiligenstadt",
         "rotation": 0
       }
     }
@@ -1132,10 +1102,10 @@
     },
     {
       "name": "spittelau",
-      "x": 370,
-      "y": 76,
+      "x": 385,
+      "y": 75,
       "label": {
-        "x": 18,
+        "x": 30,
         "y": -30,
         "text": "Spittelau",
         "rotation": 5.5
@@ -1143,7 +1113,7 @@
     },
     {
       "name": "jaegerstrasse",
-      "x": 410,
+      "x": 420,
       "y": 76,
       "label": {
         "x": 18,
