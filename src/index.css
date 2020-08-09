@@ -5,16 +5,12 @@ html {
 }
 
 h1 {
-  font-family: "Montserrat";
-  font-weight: 600;
+  font-family: "Lato";
+  font-weight: 400;
   text-align: center;
   color: #0D1B2A;
 }
 
-h2 {
-  font-family: "Montserrat";
-  font-weight: 400;
-}
 
 footer {
   width: 100%;
@@ -45,7 +41,8 @@ a {
 }
 
 #graph {
-  height: 80vh;
+  height: 75vh;
+  margin-top: 3rem
 }
 
 @media screen and (max-height: 800px) {
