@@ -1,47 +1,49 @@
-// 920x580 pixels -> scale to current when drawing
 const stations = require("./stations.json");
 
-var elem = document.getElementById("graph");
-var params = { width: elem.offsetWidth, height: elem.offsetHeight };
-var original = { width: 920, height: 580 };
-const scalingX = params.width / original.width;
-const scalingY = params.height / original.height;
-var two = new Two(params).appendTo(elem);
+const elem = document.getElementById("graph");
+const params = { width: elem.offsetWidth, height: elem.offsetHeight };
+const original = { width: 920, height: 580 };
+let scalingX = params.width / original.width;
+let scalingY = params.height / original.height;
+const two = new Two(params).appendTo(elem);
 
-const circles = {};
-
-Object.keys(stations).forEach((line, i) => {
-  const circlesOfStation = []
-  const XY = []
-  stations[line].forEach((station, z) => {
-    const x = station.x * scalingX;
-    const y = station.y * scalingY;
-    XY.push({x, y, name: station.name})
+function draw(scalingX, scalingY) {
+  Object.keys(stations).forEach((line, i) => {
+    const circlesOfStation = [];
+    const XY = [];
+    stations[line].forEach((station, z) => {
+      const x = station.x * scalingX;
+      const y = station.y * scalingY;
+      XY.push({ x, y, name: station.name, label: station.label });
+    });
+    for (let i = 0; i < XY.length - 1; i++) {
+      const connection = two.makeLine(
+        XY[i].x,
+        XY[i].y,
+        XY[i + 1].x,
+        XY[i + 1].y
+      );
+      connection.stroke = getColorForLine(line);
+      connection.linewidth = 5;
+      connection.curved = true;
+    }
+    XY.forEach((station) => {
+      const circle = two.makeCircle(station.x, station.y, 5);
+      circle.fill = "#fff";
+      circle.stroke = "#000";
+      circle.linewidth = 1;
+      if (station.label)
+        two.makeText(
+          station.label.text,
+          station.x + station.label.x,
+          station.y + station.label.y
+        ).rotation = station.label.rotation;
+    });
   });
-  for(let i = 0; i < XY.length-1; i++) {
-    const connection = two.makeLine(XY[i].x, XY[i].y, XY[i+1].x, XY[i+1].y)
-    connection.stroke = getColorForLine(line)
-    connection.linewidth = 5
-    connection.curved = true
-  }
-  XY.forEach((station) => { const circle = two.makeCircle(station.x, station.y, 5)
-    circle.fill = "#fff";
-    circle.stroke = "#000";
-    circle.linewidth = 1;
-    const text = two.makeText(station.name, station.x, station.y-20)
-    text.rotation = 5.2
-  })
-});
-// two has convenience methods to create shapes.
-// var circle = two.makeCircle(500, 100, 30);
+}
 
-// The object returned has many stylable properties:
-// circle.fill = "#FF8000";
-// circle.stroke = "orangered"; // Accepts all valid css color
-// circle.linewidth = 5;
+draw(scalingX, scalingY);
 
-// Don't forget to tell two to render everything
-// to the screen
 two.update();
 
 function getColorForLine(line) {
@@ -65,3 +67,17 @@ function getColorForLine(line) {
       return "#cecece";
   }
 }
+
+function resize() {
+  // TODO: bounce
+  two.renderer.setSize(elem.offsetWidth, elem.offsetHeight);
+  const scaling = {
+    x: elem.offsetWidth / original.width,
+    y: elem.offsetHeight / original.height,
+  };
+  two.clear();
+  draw(scaling.x, scaling.y);
+  two.update();
+}
+
+window.addEventListener("resize", resize);
