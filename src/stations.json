@@ -5,9 +5,9 @@
       "x": 565,
       "y": 568,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "oberlaa",
+        "x": 35,
+        "y": 0,
+        "text": "Oberlaa",
         "rotation": 0
       }
     },
@@ -16,9 +16,9 @@
       "x": 536,
       "y": 568,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "neulaa",
+        "x": 0,
+        "y": 13,
+        "text": "Neulaa",
         "rotation": 0
       }
     },
@@ -27,9 +27,9 @@
       "x": 515,
       "y": 549,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "alaudagasse",
+        "x": 50,
+        "y": -2,
+        "text": "Alaudagasse",
         "rotation": 0
       }
     },
@@ -38,9 +38,9 @@
       "x": 497,
       "y": 529,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "alteslandgut",
+        "x": 55,
+        "y": -3,
+        "text": "Altes Landgut",
         "rotation": 0
       }
     },
@@ -49,9 +49,9 @@
       "x": 497,
       "y": 500,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "troststrasse",
+        "x": 47,
+        "y": 0,
+        "text": "Troststrasse",
         "rotation": 0
       }
     },
@@ -60,9 +60,9 @@
       "x": 497,
       "y": 471,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "reumanplatz",
+        "x": 50,
+        "y": 0,
+        "text": "Reumanplatz",
         "rotation": 0
       }
     },
@@ -71,9 +71,9 @@
       "x": 497,
       "y": 442,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "keplerplatz",
+        "x": 45,
+        "y": 0,
+        "text": "Keplerplatz",
         "rotation": 0
       }
     },
@@ -82,9 +82,9 @@
       "x": 497,
       "y": 413,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "hauptbahnhof",
+        "x": 55,
+        "y": 0,
+        "text": "Hauptbahnhof",
         "rotation": 0
       }
     },
@@ -93,31 +93,25 @@
       "x": 497,
       "y": 384,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "taubstummengasse",
+        "x": 73,
+        "y": 0,
+        "text": "Taubstummengasse",
         "rotation": 0
       }
     },
     {
       "name": "karlsplatz",
       "x": 497,
-      "y": 355,
-      "label": {
-        "x": 5,
-        "y": 10,
-        "text": "karlsplatz",
-        "rotation": 0
-      }
+      "y": 355
     },
     {
       "name": "stephansplatz",
       "x": 497,
       "y": 278,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "stephansplatz",
+        "x": 50,
+        "y": 13,
+        "text": "Stephansplatz",
         "rotation": 0
       }
     },
@@ -126,9 +120,9 @@
       "x": 533,
       "y": 223,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "schwedenplatz",
+        "x": 60,
+        "y": 3,
+        "text": "Schwedenplatz",
         "rotation": 0
       }
     },
@@ -137,31 +131,25 @@
       "x": 551,
       "y": 206,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "nestroyplatz",
+        "x": 50,
+        "y": 3,
+        "text": "Nestroyplatz",
         "rotation": 0
       }
     },
     {
       "name": "praterstern",
       "x": 572,
-      "y": 185,
-      "label": {
-        "x": 5,
-        "y": 10,
-        "text": "praterstern",
-        "rotation": 0
-      }
+      "y": 185
     },
     {
       "name": "vorgartenstrasse",
       "x": 594,
       "y": 163,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "vorgartenstrasse",
+        "x": 65,
+        "y": 0,
+        "text": "Vorgartenstrasse",
         "rotation": 0
       }
     },
@@ -170,9 +158,9 @@
       "x": 613,
       "y": 143,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "donauinsel",
+        "x": 50,
+        "y": 0,
+        "text": "Donauinsel",
         "rotation": 0
       }
     },
@@ -181,9 +169,9 @@
       "x": 634,
       "y": 124,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "kaisermuehlen",
+        "x": 55,
+        "y": 0,
+        "text": "Kaisermühlen",
         "rotation": 0
       }
     },
@@ -192,9 +180,9 @@
       "x": 652,
       "y": 106,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "altedonau",
+        "x": 50,
+        "y": 0,
+        "text": "Alte Donau",
         "rotation": 0
       }
     },
@@ -203,9 +191,9 @@
       "x": 669,
       "y": 88,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "kagran",
+        "x": 40,
+        "y": 0,
+        "text": "Kagran",
         "rotation": 0
       }
     },
@@ -214,9 +202,9 @@
       "x": 687,
       "y": 70,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "kagranerplatz",
+        "x": 60,
+        "y": 3,
+        "text": "Kagraner Platz",
         "rotation": 0
       }
     },
@@ -225,9 +213,9 @@
       "x": 702,
       "y": 55,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "rennbahnweg",
+        "x": 59,
+        "y": 3,
+        "text": "Rennbahnweg",
         "rotation": 0
       }
     },
@@ -236,9 +224,9 @@
       "x": 717,
       "y": 39,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "aderklaaerstrasse",
+        "x": 70,
+        "y": 3,
+        "text": "Aderklaaer Strasse",
         "rotation": 0
       }
     },
@@ -247,9 +235,9 @@
       "x": 733,
       "y": 24,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "grossfeldsiedlung",
+        "x": 68,
+        "y": 3,
+        "text": "Grossfeldsiedlung",
         "rotation": 0
       }
     },
@@ -258,9 +246,9 @@
       "x": 751,
       "y": 6,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "leopoldau",
+        "x": 43,
+        "y": 0,
+        "text": "Leopoldau",
         "rotation": 0
       }
     }
@@ -477,8 +465,8 @@
     },
     {
       "name": "karlsplatz",
-      "x": 495,
-      "y": 347,
+      "x": 497,
+      "y": 355,
       "label": {
         "x": 5,
         "y": 10,

@@ -2,7 +2,7 @@ const stations = require("./stations.json");
 
 const elem = document.getElementById("graph");
 const params = { width: elem.offsetWidth, height: elem.offsetHeight };
-const original = { width: 920, height: 580 };
+const original = { width: 940, height: 600 };
 let scalingX = params.width / original.width;
 let scalingY = params.height / original.height;
 const two = new Two(params).appendTo(elem);
