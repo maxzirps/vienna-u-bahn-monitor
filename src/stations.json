@@ -493,10 +493,10 @@
       "x": 125,
       "y": 195,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "ottakring",
-        "rotation": 0
+        "x": 25,
+        "y": -30,
+        "text": "Ottakring",
+        "rotation": 5.5
       }
     },
     {
@@ -504,10 +504,10 @@
       "x": 153,
       "y": 209,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "kendlerstrasse",
-        "rotation": 0
+        "x": 38,
+        "y": -45,
+        "text": "Kendlerstrasse",
+        "rotation": 5.5
       }
     },
     {
@@ -515,10 +515,10 @@
       "x": 182,
       "y": 223,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "huetteldorferstrasse",
-        "rotation": 0
+        "x": 48,
+        "y": -55,
+        "text": "Hütteldorferstrasse",
+        "rotation": 5.5
       }
     },
     {
@@ -526,10 +526,10 @@
       "x": 209,
       "y": 237,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "johnstrasse",
-        "rotation": 0
+        "x": 35,
+        "y": -35,
+        "text": "Johnstrasse",
+        "rotation": 5.5
       }
     },
     {
@@ -537,31 +537,25 @@
       "x": 241,
       "y": 252,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "schweglerstrasse",
-        "rotation": 0
+        "x": 48,
+        "y": -50,
+        "text": "Schweglerstrasse",
+        "rotation": 5.5
       }
     },
     {
       "name": "westbahnhof",
       "x": 292,
-      "y": 278,
-      "label": {
-        "x": 5,
-        "y": 10,
-        "text": "westbahnhof",
-        "rotation": 0
-      }
+      "y": 278
     },
     {
       "name": "zieglergasse",
       "x": 343,
       "y": 278,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "zieglergasse",
+        "x": 0,
+        "y": 12,
+        "text": "Zieglergasse",
         "rotation": 0
       }
     },
@@ -570,9 +564,9 @@
       "x": 386,
       "y": 278,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "neubaugasse",
+        "x": 0,
+        "y": 12,
+        "text": "Neubaugasse",
         "rotation": 0
       }
     },
@@ -581,10 +575,10 @@
       "x": 434,
       "y": 278,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "volkstheater",
-        "rotation": 0
+        "x": 35,
+        "y": -35,
+        "text": "Volkstheater",
+        "rotation": 5.5
       }
     },
     {
@@ -592,53 +586,41 @@
       "x": 463,
       "y": 278,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "herrengasse",
-        "rotation": 0
+        "x": 35,
+        "y": -35,
+        "text": "Herrengasse",
+        "rotation": 5.5
       }
     },
     {
       "name": "stephansplatz",
       "x": 495,
-      "y": 278,
-      "label": {
-        "x": 5,
-        "y": 10,
-        "text": "stephansplatz",
-        "rotation": 0
-      }
+      "y": 278
     },
     {
       "name": "stubentor",
       "x": 525,
       "y": 278,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "stubentor",
+        "x": 0,
+        "y": -12,
+        "text": "Stubentor",
         "rotation": 0
       }
     },
     {
       "name": "landstrasse",
-      "x": 536,
-      "y": 278,
-      "label": {
-        "x": 5,
-        "y": 10,
-        "text": "landstrasse",
-        "rotation": 0
-      }
+      "x": 564,
+      "y": 280
     },
     {
       "name": "rochusgasse",
       "x": 592,
       "y": 299,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "rochusgasse",
+        "x": 50,
+        "y": -3,
+        "text": "Rochusgasse",
         "rotation": 0
       }
     },
@@ -647,9 +629,9 @@
       "x": 618,
       "y": 317,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "kardinal-nagl-platz",
+        "x": 70,
+        "y": -3,
+        "text": "Kardinal-Nagl-Platz",
         "rotation": 0
       }
     },
@@ -658,9 +640,9 @@
       "x": 642,
       "y": 335,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "schlachthausgasse",
+        "x": 70,
+        "y": -3,
+        "text": "Schlachthausgasse",
         "rotation": 0
       }
     },
@@ -669,9 +651,9 @@
       "x": 673,
       "y": 355,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "erdberg",
+        "x": 40,
+        "y": -3,
+        "text": "Erdberg",
         "rotation": 0
       }
     },
@@ -680,9 +662,9 @@
       "x": 699,
       "y": 374,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "gasometer",
+        "x": 50,
+        "y": -3,
+        "text": "Gasometer",
         "rotation": 0
       }
     },
@@ -691,9 +673,9 @@
       "x": 729,
       "y": 396,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "zippererstrasse",
+        "x": 60,
+        "y": -5,
+        "text": "Zippererstrasse",
         "rotation": 0
       }
     },
@@ -702,9 +684,9 @@
       "x": 757,
       "y": 414,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "enkplatz",
+        "x": 40,
+        "y": -3,
+        "text": "Enkplatz",
         "rotation": 0
       }
     },
@@ -713,9 +695,9 @@
       "x": 784,
       "y": 434,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "simmering",
+        "x": 45,
+        "y": -3,
+        "text": "Simmering",
         "rotation": 0
       }
     }
