@@ -261,7 +261,7 @@
       "label": {
         "x": 5,
         "y": 10,
-        "text": "seestadt",
+        "text": "Seestadt",
         "rotation": 0
       }
     },
@@ -270,10 +270,10 @@
       "x": 886,
       "y": 150,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "aspernnord",
-        "rotation": 0
+        "x": 30,
+        "y": -40,
+        "text": "Aspern Nord",
+        "rotation": 5.5
       }
     },
     {
@@ -281,10 +281,10 @@
       "x": 855,
       "y": 150,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "hausfelderstrasse",
-        "rotation": 0
+        "x": 38,
+        "y": -53,
+        "text": "Hausfelderstrasse",
+        "rotation": 5.5
       }
     },
     {
@@ -292,9 +292,9 @@
       "x": 836,
       "y": 177,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "aspernstrasse",
+        "x": 0,
+        "y": 12,
+        "text": "Aspernstrasse",
         "rotation": 0
       }
     },
@@ -303,10 +303,10 @@
       "x": 800,
       "y": 177,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "donauspital",
-        "rotation": 0
+        "x": 25,
+        "y": -38,
+        "text": "Donauspital",
+        "rotation": 5.5
       }
     },
     {
@@ -314,9 +314,9 @@
       "x": 758,
       "y": 177,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "hardeggasse",
+        "x": 0,
+        "y": -15,
+        "text": "Hardeggasse",
         "rotation": 0
       }
     },
@@ -325,9 +325,9 @@
       "x": 740,
       "y": 199,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "stadlau",
+        "x": 35,
+        "y": 3,
+        "text": "Stadlau",
         "rotation": 0
       }
     },
@@ -336,9 +336,9 @@
       "x": 729,
       "y": 220,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "donaustadtbruecke",
+        "x": 70,
+        "y": 3,
+        "text": "Donaustadtbrücke",
         "rotation": 0
       }
     },
@@ -347,9 +347,9 @@
       "x": 714,
       "y": 243,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "donaumarina",
+        "x": 55,
+        "y": 3,
+        "text": "Donaumarina",
         "rotation": 0
       }
     },
@@ -358,9 +358,9 @@
       "x": 673,
       "y": 229,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "stadion",
+        "x": 30,
+        "y": -8,
+        "text": "Stadion",
         "rotation": 0
       }
     },
@@ -369,9 +369,9 @@
       "x": 650,
       "y": 209,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "krieau",
+        "x": 30,
+        "y": -8,
+        "text": "Krieau",
         "rotation": 0
       }
     },
@@ -380,9 +380,9 @@
       "x": 620,
       "y": 184,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "messe-prater",
+        "x": 50,
+        "y": -3,
+        "text": "Messe-Prater",
         "rotation": 0
       }
     },
@@ -391,9 +391,9 @@
       "x": 570,
       "y": 185,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "praterstern",
+        "x": 45,
+        "y": 12,
+        "text": "Praterstern",
         "rotation": 0
       }
     },
@@ -402,9 +402,9 @@
       "x": 534,
       "y": 185,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "taborstrasse",
+        "x": 0,
+        "y": -15,
+        "text": "Taborstrasse",
         "rotation": 0
       }
     },
@@ -413,9 +413,9 @@
       "x": 494,
       "y": 185,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "schottenring",
+        "x": -55,
+        "y": 0,
+        "text": "Schottenring",
         "rotation": 0
       }
     },
@@ -424,9 +424,9 @@
       "x": 460,
       "y": 217,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "schottentor",
+        "x": -50,
+        "y": 0,
+        "text": "Schottentor",
         "rotation": 0
       }
     },
@@ -435,31 +435,25 @@
       "x": 435,
       "y": 244,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "rathaus",
+        "x": -35,
+        "y": 0,
+        "text": "Rathaus",
         "rotation": 0
       }
     },
     {
       "name": "volkstheater",
       "x": 434,
-      "y": 278,
-      "label": {
-        "x": 5,
-        "y": 10,
-        "text": "volkstheater",
-        "rotation": 0
-      }
+      "y": 278
     },
     {
       "name": "museumsquartier",
       "x": 434,
       "y": 317,
       "label": {
-        "x": 5,
-        "y": 10,
-        "text": "museumsquartier",
+        "x": 60,
+        "y": -10,
+        "text": "Museumsquartier",
         "rotation": 0
       }
     },
