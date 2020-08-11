@@ -4,6 +4,29 @@ html {
   overflow: hidden;
 }
 
+#legend {
+  position: absolute;
+}
+
+#legend ul {
+  list-style-type: none;
+}
+
+#legend .line {
+  font-family: "OpenSans";
+  font-weight: 300;
+  line-height: 0.2rem;
+}
+
+.dot {
+  height: 5px;
+  width: 30px;
+  display: inline-block;
+  margin-right: 0.2rem;
+  line-height: 1rem;
+  vertical-align: middle;
+}
+
 #noscript {
   text-align: center;
   color: #800000;
@@ -14,9 +37,8 @@ h1 {
   font-family: "Lato";
   font-weight: 400;
   text-align: center;
-  color: #0D1B2A;
+  color: #0d1b2a;
 }
-
 
 footer {
   width: 100%;
@@ -30,10 +52,8 @@ footer {
   text-align: right;
 }
 
-
-
 a {
-  color: #415A77;
+  color: #415a77;
   text-decoration: none;
   font-weight: 600;
 }
@@ -48,7 +68,7 @@ a {
 
 #graph {
   height: 75vh;
-  margin-top: 3rem
+  margin-top: 3rem;
 }
 
 @media screen and (max-height: 800px) {
@@ -56,6 +76,6 @@ a {
     padding: 0.5rem;
   }
   #graph {
-    height: 70vh
+    height: 70vh;
   }
 }
