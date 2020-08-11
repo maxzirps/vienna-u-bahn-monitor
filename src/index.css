@@ -4,6 +4,12 @@ html {
   overflow: hidden;
 }
 
+#noscript {
+  text-align: center;
+  color: #800000;
+  margin-top: 5rem;
+}
+
 h1 {
   font-family: "Lato";
   font-weight: 400;
