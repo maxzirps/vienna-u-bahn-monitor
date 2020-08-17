@@ -8,14 +8,16 @@ let scalingY = params.height / original.height;
 const two = new Two(params).appendTo(elem);
 
 function draw(scalingX, scalingY) {
-  Object.keys(stations).forEach((line, i) => {
-    const circlesOfStation = [];
+  Object.keys(stations).forEach((line) => {
+    // Scale station positions
     const XY = [];
-    stations[line].forEach((station, z) => {
+    stations[line].forEach((station) => {
       const x = station.x * scalingX;
       const y = station.y * scalingY;
       XY.push({ x, y, name: station.name, label: station.label });
     });
+
+    // Create connections
     for (let i = 0; i < XY.length - 1; i++) {
       const connection = two.makeLine(
         XY[i].x,
@@ -27,6 +29,8 @@ function draw(scalingX, scalingY) {
       connection.linewidth = 5;
       connection.curved = true;
     }
+
+    // Create circles and labels
     XY.forEach((station) => {
       const circle = two.makeCircle(station.x, station.y, 5);
       circle.fill = "#fff";
@@ -39,10 +43,42 @@ function draw(scalingX, scalingY) {
           station.y + station.label.y
         ).rotation = station.label.rotation;
     });
+
+    if (line === "u4") {
+      animate(XY[0], XY[1], 5000);
+      animate(XY[1], XY[2], 5000);
+    }
   });
 }
 
 draw(scalingX, scalingY);
+
+function animate(from, to, time) {
+  const circle = two.makeCircle(from.x, from.y, 3);
+  circle.fill = "#fff";
+  circle.stroke = "#000";
+  circle.linewidth = 1;
+
+  function moveCloser(from, to, step, speed) {
+    const xMatch = Math.floor(from.x) === Math.floor(to.x);
+    const yMatch = Math.floor(from.y) === Math.floor(to.y);
+    if (!xMatch || !yMatch) {
+      const xStep = xMatch ? 0 : to.x > from.x ? step : -step;
+      const yStep = yMatch ? 0 : to.y > from.y ? step : -step;
+      from.x += xStep;
+      from.y += yStep;
+      circle.translation.set(from.x, from.y);
+      two.update();
+      setTimeout(() => moveCloser(from, to, step, speed), speed);
+    }
+  }
+
+  const xDistance = Math.abs(from.x - to.x);
+  const yDistance = Math.abs(from.y - to.y);
+  const speed = 100;
+  const step = (Math.max(xDistance, yDistance) / time) * speed;
+  moveCloser({ ...from }, { ...to }, step, speed);
+}
 
 two.update();
 
