@@ -1,6 +1,7 @@
 const stations = require("../../data/stations.json");
 const drawStations = require("./draw-stations");
 const drawConnections = require("./draw-connections");
+const startTrainAnimations = require("./animate-trains");
 
 const elem = document.getElementById("graph");
 const params = { width: elem.offsetWidth, height: elem.offsetHeight };
@@ -12,15 +13,14 @@ const two = new Two(params).appendTo(elem);
 draw(two, scalingX, scalingY);
 
 function draw(two, scalingX, scalingY) {
-  // all stations need to be drawn after all connections have been drawn,
-  // so that the stations are a layer above the connections
-  const drawTasks = [[], []];
+  const scaledStations = {};
+
   Object.keys(stations).forEach((line) => {
-    const scaledStations = [];
+    scaledStations[line] = [];
     stations[line].forEach((station) => {
       const x = station.x * scalingX;
       const y = station.y * scalingY;
-      scaledStations.push({
+      scaledStations[line].push({
         x,
         y,
         name: station.name,
@@ -28,13 +28,11 @@ function draw(two, scalingX, scalingY) {
         rbl: station.rbl,
       });
     });
-
-    drawTasks[0].push(() => drawConnections(two, scaledStations, line));
-    drawTasks[1].push(() => drawStations(two, scaledStations));
   });
-  drawTasks[0].forEach((task) => task());
-  drawTasks[1].forEach((task) => task());
+  Object.keys(scaledStations).forEach((line) => drawConnections(two, scaledStations[line], line))
+  Object.keys(scaledStations).forEach((line) => drawStations(two, scaledStations[line]))
   two.update();
+  startTrainAnimations(two, scaledStations);
 }
 
 function resize() {
