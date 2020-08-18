@@ -1,9 +1,9 @@
 {
-  "name": "vienna-u-bahn-time-lapse",
+  "name": "vienna-u-bahn-monitor",
   "author": {
     "name": "Maximilian Zirps"
   },
-  "homepage": "https://zirmax.github.io/vienna-u-bahn-time-lapse",
+  "homepage": "https://zirmax.github.io/vienna-u-bahn-monitor",
   "license": "MIT",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /vienna-u-bahn-time-lapse/"
+    "build": "parcel build src/index.html --public-url /vienna-u-bahn-monitor/"
   },
   "devDependencies": {
     "prettier": "^2.0.5"

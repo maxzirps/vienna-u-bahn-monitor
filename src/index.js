@@ -44,10 +44,7 @@ function draw(scalingX, scalingY) {
         ).rotation = station.label.rotation;
     });
 
-    if (line === "u4") {
       animate(XY[0], XY[1], 5000);
-      animate(XY[1], XY[2], 5000);
-    }
   });
 }
 
@@ -60,8 +57,8 @@ function animate(from, to, time) {
   circle.linewidth = 1;
 
   function moveCloser(from, to, step, speed) {
-    const xMatch = Math.floor(from.x) === Math.floor(to.x);
-    const yMatch = Math.floor(from.y) === Math.floor(to.y);
+    const xMatch = from.x -step < to.x && from.x+step > to.x;
+    const yMatch = from.y -step < to.y && from.y+step > to.y;
     if (!xMatch || !yMatch) {
       const xStep = xMatch ? 0 : to.x > from.x ? step : -step;
       const yStep = yMatch ? 0 : to.y > from.y ? step : -step;
