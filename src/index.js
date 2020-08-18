@@ -1,4 +1,4 @@
-const stations = require("./stations.json");
+const stations = require("../data/stations.json");
 
 const elem = document.getElementById("graph");
 const params = { width: elem.offsetWidth, height: elem.offsetHeight };
