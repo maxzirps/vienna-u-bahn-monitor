@@ -1,4 +1,6 @@
-function animate(two, from, to, time) {
+const stationNamesMap = require("../../data/station-names-map.json");
+
+function animateTrain(two, from, to, time) {
   const circle = two.makeCircle(from.x, from.y, 3);
   circle.fill = "#fff";
   circle.stroke = "#000";
@@ -26,24 +28,41 @@ function animate(two, from, to, time) {
   moveCloser({ ...from }, { ...to }, xStep, yStep, speed);
 }
 
-function startTrainAnimations(two, stations) {
-  Object.keys(stations).forEach((line) => {
-    stations[line].forEach((station) => {
-      station.rbl.forEach((rbl) => {
-        // fetch(
-        //   `https://apps.static-access.net/ViennaTransport/monitor/?line=${line}&station=${station.name}&towards=${rbl.towards}`
-        // )
-        //   .then((res) => res.json())
-        //   .then((data) =>
-        //     console.log(
-        //       data.data.monitors[0].lines[0].departures.departure[0]
-        //         .departureTime.timeReal
-        //     )
-        //   )
-        //   .catch((e) => console.error(e.message));
-      });
-    });
+function animateLine(lineData, stations) {
+  const lineName = lineData[0].lines[0].name.toLowerCase();
+
+  lineData.forEach((entry) => {
+    const apiStopName = entry.locationStop.properties.title;
+    const apiTowards = entry.lines[entry.lines.length - 1];
+    const from = stations[lineName].find(
+      (station) => 
+        stationNamesMap[station.name] === apiStopName 
+    );
+    const to = from && getNextStation(from, apiTowards, stations[lineName])
+    console.log(to)
   });
+}
+
+function getNextStation(from, towards, stations) {
+  if (stationNamesMap[stations[0].name].toUpperCase() === towards) {
+    // TODO: take lower 
+  } else if (stationNamesMap[stations[stations.length-1].name].toUpperCase() === towards){
+    // TODO: take higher station
+  }
+}
+
+function startTrainAnimations(two, stations) {
+  Promise.all(
+    Object.keys(stations).map((line) =>
+      fetch(
+        `https://apps.static-access.net/ViennaTransport/monitor/?line=${line}`
+      )
+        .then((res) => res.json())
+        .catch((e) => console.error(e.message))
+    )
+  ).then((res) =>
+    res.forEach((lineData) => animateLine(lineData.data.monitors, stations))
+  );
 }
 
 module.exports = startTrainAnimations;
