@@ -13,6 +13,9 @@ const two = new Two(params).appendTo(elem);
 draw(two, scalingX, scalingY);
 
 function draw(two, scalingX, scalingY) {
+  if (window.innerWidth < 1600 || window.innerHeight < 900) {
+        return;
+  }
   const scaledStations = {};
 
   Object.keys(stations).forEach((line) => {
@@ -29,8 +32,12 @@ function draw(two, scalingX, scalingY) {
       });
     });
   });
-  Object.keys(scaledStations).forEach((line) => drawConnections(two, scaledStations[line], line))
-  Object.keys(scaledStations).forEach((line) => drawStations(two, scaledStations[line]))
+  Object.keys(scaledStations).forEach((line) =>
+    drawConnections(two, scaledStations[line], line)
+  );
+  Object.keys(scaledStations).forEach((line) =>
+    drawStations(two, scaledStations[line])
+  );
   two.update();
   startTrainAnimations(two, scaledStations);
 }

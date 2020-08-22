@@ -40,6 +40,13 @@ h1 {
   color: #0d1b2a;
 }
 
+h2 {
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+}
+
 footer {
   width: 100%;
   position: fixed;
@@ -77,5 +84,30 @@ a {
   }
   #graph {
     height: 70vh;
+  }
+}
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+}
+
+#emoji {
+  text-align: center;
+  font-size: 300%;
+}
+
+@media screen and (min-height: 900px) and (min-width: 1600px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
   }
 }
