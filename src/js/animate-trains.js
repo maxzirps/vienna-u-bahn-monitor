@@ -28,26 +28,29 @@ function animateTrain(two, from, to, time) {
   moveCloser({ ...from }, { ...to }, xStep, yStep, speed);
 }
 
-function animateLine(lineData, stations) {
+function animateLine(two, lineData, stations) {
   const lineName = lineData[0].lines[0].name.toLowerCase();
 
   lineData.forEach((entry) => {
     const apiStopName = entry.locationStop.properties.title;
     const apiTowards = entry.lines[entry.lines.length - 1];
     const from = stations[lineName].find(
-      (station) => 
-        stationNamesMap[station.name] === apiStopName 
+      (station) => stationNamesMap[station.name] === apiStopName
     );
-    const to = from && getNextStation(from, apiTowards, stations[lineName])
-    console.log(to)
+    const to = from && getNextStation(from, apiTowards, stations[lineName]);
+    if (from && to) animateTrain(two, from, to, 5000);
   });
 }
 
 function getNextStation(from, towards, stations) {
-  if (stationNamesMap[stations[0].name].toUpperCase() === towards) {
-    // TODO: take lower 
-  } else if (stationNamesMap[stations[stations.length-1].name].toUpperCase() === towards){
-    // TODO: take higher station
+  const index = stations.findIndex((station) => station.name === from.name);
+  if (stationNamesMap[stations[0].name].toUpperCase() === towards.towards) {
+    return stations[index - 1];
+  } else if (
+    stationNamesMap[stations[stations.length - 1].name].toUpperCase() ===
+    towards.towards
+  ) {
+    return stations[index + 1];
   }
 }
 
@@ -61,7 +64,9 @@ function startTrainAnimations(two, stations) {
         .catch((e) => console.error(e.message))
     )
   ).then((res) =>
-    res.forEach((lineData) => animateLine(lineData.data.monitors, stations))
+    res.forEach((lineData) =>
+      animateLine(two, lineData.data.monitors, stations)
+    )
   );
 }
 
