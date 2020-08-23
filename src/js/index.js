@@ -11,9 +11,10 @@ let scalingY = params.height / original.height;
 const two = new Two(params).appendTo(elem);
 const scaledStations = scaleStations(stations, scalingX, scalingY);
 
-isDesktop() &&
-  draw(two, scaledStations) &&
-  startTrainAnimations(two, scaledStations) && console.log("ahjsg");
+if (isDesktop()) {
+  draw(two, scaledStations);
+  startTrainAnimations(two, scaledStations);
+}
 
 function resize() {
   // TODO: bounce
@@ -22,13 +23,14 @@ function resize() {
     x: elem.offsetWidth / original.width,
     y: elem.offsetHeight / original.height,
   };
-  isDesktop() &&
-    draw(two, scaledStations) &&
+  if (isDesktop()) {
+    draw(two, scaledStations);
     startTrainAnimations(two, scaledStations);
+  }
 }
 
 window.addEventListener("resize", resize);
 
 function isDesktop() {
-  return window.innerWidth > 1600 && window.innerHeight > 900;
+  return getComputedStyle(elem, null).display === "block";
 }

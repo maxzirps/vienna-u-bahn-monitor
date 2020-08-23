@@ -27,13 +27,12 @@ function animateTrain(two, from, to, time) {
 }
 
 function animateLine(two, lineData, stations) {
-  const lineName = lineData[0].lines[0].name.toLowerCase();
-
+  const lineName = lineData[0].lines[0].name;
   lineData.forEach((entry) => {
     const apiStopName = entry.locationStop.properties.title;
     const apiTowards = entry.lines[entry.lines.length - 1];
     const from = stations[lineName].find(
-      (station) => stationNamesMap[station.name] === apiStopName
+      (station) => station.name === apiStopName
     );
     const to = from && getNextStation(from, apiTowards, stations[lineName]);
     if (from && to) animateTrain(two, from, to, 5000);
@@ -42,11 +41,10 @@ function animateLine(two, lineData, stations) {
 
 function getNextStation(from, towards, stations) {
   const index = stations.findIndex((station) => station.name === from.name);
-  if (stationNamesMap[stations[0].name].toUpperCase() === towards.towards) {
+  if (stations[0].name.toUpperCase() === towards.towards) {
     return stations[index - 1];
   } else if (
-    stationNamesMap[stations[stations.length - 1].name].toUpperCase() ===
-    towards.towards
+    stations[stations.length - 1].name.toUpperCase() === towards.towards
   ) {
     return stations[index + 1];
   }
@@ -63,7 +61,7 @@ function startTrainAnimations(two, stations) {
     )
   ).then((res) =>
     res.forEach((lineData) =>
-     console.log(lineData) &&  animateLine(two, lineData.data.monitors, stations)
+      animateLine(two, lineData.data.monitors, stations)
     )
   );
 }
