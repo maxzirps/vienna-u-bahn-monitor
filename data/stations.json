@@ -1,2170 +1,1134 @@
 {
-  "u1": [
+  "U1": [
     {
-      "name": "oberlaa",
-      "x": 565,
-      "y": 568,
+      "name": "Oberlaa",
       "label": {
         "x": 35,
         "y": 0,
         "text": "Oberlaa",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4134,
-          "towards": "LEOPOLDAU"
-        }
-      ]
+      "x": 565,
+      "y": 568
     },
     {
-      "name": "neulaa",
-      "x": 536,
-      "y": 568,
+      "name": "Neulaa",
       "label": {
         "x": 0,
         "y": 13,
         "text": "Neulaa",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4132,
-          "towards": "OBERLAA"
-        },
-        {
-          "id": 4135,
-          "towards": "LEOPOLDAU"
-        }
-      ]
+      "x": 536,
+      "y": 568
     },
     {
-      "name": "alaudagasse",
-      "x": 515,
-      "y": 549,
+      "name": "Alaudagasse",
       "label": {
         "x": 50,
         "y": -2,
         "text": "Alaudagasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4136,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4131,
-          "towards": "ALAUDAGASSE"
-        }
-      ]
+      "x": 515,
+      "y": 549
     },
     {
-      "name": "alteslandgut",
-      "x": 497,
-      "y": 529,
+      "name": "Altes Landgut",
       "label": {
         "x": 55,
         "y": -3,
         "text": "Altes Landgut",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4130,
-          "towards": "ALAUDAGASSE"
-        },
-        {
-          "id": 4137,
-          "towards": "LEOPOLDAU"
-        }
-      ]
+      "x": 497,
+      "y": 529
     },
     {
-      "name": "troststrasse",
-      "x": 497,
-      "y": 500,
+      "name": "Troststraße",
       "label": {
         "x": 47,
         "y": 0,
         "text": "Troststrasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4129,
-          "towards": "OBERLAA"
-        },
-        {
-          "id": 4138,
-          "towards": "LEOPOLDAU"
-        }
-      ]
+      "x": 497,
+      "y": 500
     },
     {
-      "name": "reumannplatz",
-      "x": 497,
-      "y": 471,
+      "name": "Reumannplatz",
       "label": {
         "x": 55,
         "y": 0,
         "text": "Reumannplatz",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4101,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4128,
-          "towards": "OBERLAA"
-        }
-      ]
+      "x": 497,
+      "y": 471
     },
     {
-      "name": "keplerplatz",
-      "x": 497,
-      "y": 442,
+      "name": "Keplerplatz",
       "label": {
         "x": 45,
         "y": 0,
         "text": "Keplerplatz",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4103,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4126,
-          "towards": "OBERLAA"
-        }
-      ]
+      "x": 497,
+      "y": 442
     },
     {
-      "name": "hauptbahnhof",
-      "x": 497,
-      "y": 413,
+      "name": "Südtiroler Platz",
       "label": {
         "x": 55,
         "y": 0,
         "text": "Hauptbahnhof",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4105,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4124,
-          "towards": "OBERLAA"
-        }
-      ]
+      "x": 497,
+      "y": 413
     },
     {
-      "name": "taubstummengasse",
-      "x": 497,
-      "y": 384,
+      "name": "Taubstummengasse",
       "label": {
         "x": 73,
         "y": 0,
         "text": "Taubstummengasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4107,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4122,
-          "towards": "ALAUDAGASSE"
-        }
-      ]
+      "x": 497,
+      "y": 384
     },
     {
-      "name": "karlsplatz",
+      "name": "Karlsplatz",
       "x": 497,
-      "y": 355,
-      "rbl": [
-        {
-          "id": 4109,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4120,
-          "towards": "ALAUDAGASSE"
-        }
-      ]
+      "y": 355
     },
     {
-      "name": "stephansplatz",
-      "x": 497,
-      "y": 278,
+      "name": "Stephansplatz",
       "label": {
         "x": 50,
         "y": 13,
         "text": "Stephansplatz",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4111,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4118,
-          "towards": "OBERLAA"
-        }
-      ]
+      "x": 497,
+      "y": 278
     },
     {
-      "name": "schwedenplatz",
-      "x": 533,
-      "y": 223,
+      "name": "Schwedenplatz",
       "label": {
         "x": 60,
         "y": 3,
         "text": "Schwedenplatz",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4116,
-          "towards": "OBERLAA"
-        },
-        {
-          "id": 4113,
-          "towards": "LEOPOLDAU"
-        }
-      ]
+      "x": 533,
+      "y": 223
     },
     {
-      "name": "nestroyplatz",
-      "x": 551,
-      "y": 206,
+      "name": "Nestroyplatz",
       "label": {
         "x": 50,
         "y": 3,
         "text": "Nestroyplatz",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4115,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4114,
-          "towards": "OBERLAA"
-        }
-      ]
+      "x": 551,
+      "y": 206
     },
     {
-      "name": "praterstern",
+      "name": "Praterstern",
       "x": 572,
-      "y": 185,
-      "rbl": [
-        {
-          "id": 4117,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4112,
-          "towards": "ALAUDAGASSE"
-        }
-      ]
+      "y": 185
     },
     {
-      "name": "vorgartenstrasse",
-      "x": 594,
-      "y": 163,
+      "name": "Vorgartenstraße",
       "label": {
         "x": 65,
         "y": 0,
         "text": "Vorgartenstrasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4119,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4110,
-          "towards": "ALAUDAGASSE"
-        }
-      ]
+      "x": 594,
+      "y": 163
     },
     {
-      "name": "donauinsel",
-      "x": 613,
-      "y": 143,
+      "name": "Donauinsel",
       "label": {
         "x": 50,
         "y": 0,
         "text": "Donauinsel",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4121,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4108,
-          "towards": "OBERLAA"
-        }
-      ]
+      "x": 613,
+      "y": 143
     },
     {
-      "name": "kaisermuehlen",
-      "x": 634,
-      "y": 124,
+      "name": "Kaisermühlen, V.I.C.",
       "label": {
         "x": 55,
         "y": 0,
         "text": "Kaisermühlen",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4123,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4106,
-          "towards": "OBERLAA"
-        }
-      ]
+      "x": 634,
+      "y": 124
     },
     {
-      "name": "altedonau",
-      "x": 652,
-      "y": 106,
+      "name": "Alte Donau",
       "label": {
         "x": 50,
         "y": 0,
         "text": "Alte Donau",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4125,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4104,
-          "towards": "OBERLAA"
-        }
-      ]
+      "x": 652,
+      "y": 106
     },
     {
-      "name": "kagran",
-      "x": 669,
-      "y": 88,
+      "name": "Kagran",
       "label": {
         "x": 40,
         "y": 0,
         "text": "Kagran",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4127,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4102,
-          "towards": "ALAUDAGASSE"
-        }
-      ]
+      "x": 669,
+      "y": 88
     },
     {
-      "name": "kagranerplatz",
-      "x": 687,
-      "y": 70,
+      "name": "Kagraner Platz",
       "label": {
         "x": 60,
         "y": 3,
         "text": "Kagraner Platz",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4181,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4186,
-          "towards": "ALAUDAGASSE"
-        }
-      ]
+      "x": 687,
+      "y": 70
     },
     {
-      "name": "rennbahnweg",
-      "x": 702,
-      "y": 55,
+      "name": "Rennbahnweg",
       "label": {
         "x": 59,
         "y": 3,
         "text": "Rennbahnweg",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4182,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4187,
-          "towards": "OBERLAA"
-        }
-      ]
+      "x": 702,
+      "y": 55
     },
     {
-      "name": "aderklaaerstrasse",
-      "x": 717,
-      "y": 39,
+      "name": "Aderklaaer Straße",
       "label": {
         "x": 70,
         "y": 3,
         "text": "Aderklaaer Strasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4183,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4188,
-          "towards": "OBERLAA"
-        }
-      ]
+      "x": 717,
+      "y": 39
     },
     {
-      "name": "grossfeldsiedlung",
-      "x": 733,
-      "y": 24,
+      "name": "Großfeldsiedlung",
       "label": {
         "x": 68,
         "y": 3,
         "text": "Grossfeldsiedlung",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4184,
-          "towards": "LEOPOLDAU"
-        },
-        {
-          "id": 4189,
-          "towards": "OBERLAA"
-        }
-      ]
+      "x": 733,
+      "y": 24
     },
     {
-      "name": "leopoldau",
-      "x": 751,
-      "y": 6,
+      "name": "Leopoldau",
       "label": {
         "x": 43,
         "y": 0,
         "text": "Leopoldau",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4190,
-          "towards": "ALAUDAGASSE"
-        }
-      ]
+      "x": 751,
+      "y": 6
     }
   ],
-  "u2": [
+  "U2": [
     {
-      "name": "seestadt",
-      "x": 901,
-      "y": 169,
+      "name": "Seestadt",
       "label": {
         "x": 5,
         "y": 10,
         "text": "Seestadt",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4277,
-          "towards": "KARLSPLATZ"
-        }
-      ]
+      "x": 901,
+      "y": 169
     },
     {
-      "name": "aspernnord",
-      "x": 886,
-      "y": 150,
+      "name": "Aspern Nord",
       "label": {
         "x": 30,
         "y": -40,
         "text": "Aspern Nord",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4275,
-          "towards": "SEESTADT"
-        },
-        {
-          "id": 4278,
-          "towards": "KARLSPLATZ"
-        }
-      ]
+      "x": 886,
+      "y": 150
     },
     {
-      "name": "hausfeldstrasse",
-      "x": 855,
-      "y": 150,
+      "name": "Hausfeldstraße",
       "label": {
         "x": 38,
         "y": -53,
         "text": "Hausfeldstrasse",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4274,
-          "towards": "SEESTADT"
-        },
-        {
-          "id": 4279,
-          "towards": "KARLSPLATZ"
-        }
-      ]
+      "x": 855,
+      "y": 150
     },
     {
-      "name": "aspernstrasse",
-      "x": 836,
-      "y": 177,
+      "name": "Aspernstraße",
       "label": {
         "x": 0,
         "y": 12,
         "text": "Aspernstrasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4251,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4272,
-          "towards": "NICHT EINSTEIGEN ! NO DEPARTURE PLATFORM"
-        }
-      ]
+      "x": 836,
+      "y": 177
     },
     {
-      "name": "donauspital",
-      "x": 800,
-      "y": 177,
+      "name": "Donauspital",
       "label": {
         "x": 25,
         "y": -38,
         "text": "Donauspital",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4252,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4271,
-          "towards": "ASPERNSTRASSE"
-        }
-      ]
+      "x": 800,
+      "y": 177
     },
     {
-      "name": "hardeggasse",
-      "x": 758,
-      "y": 177,
+      "name": "Hardeggasse",
       "label": {
         "x": 0,
         "y": -15,
         "text": "Hardeggasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4253,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4270,
-          "towards": "SEESTADT"
-        }
-      ]
+      "x": 758,
+      "y": 177
     },
     {
-      "name": "stadlau",
-      "x": 740,
-      "y": 199,
+      "name": "Stadlau",
       "label": {
         "x": 35,
         "y": 3,
         "text": "Stadlau",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4254,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4269,
-          "towards": "SEESTADT"
-        }
-      ]
+      "x": 740,
+      "y": 199
     },
     {
-      "name": "donaustadtbruecke",
-      "x": 729,
-      "y": 220,
+      "name": "Donaustadtbrücke",
       "label": {
         "x": 70,
         "y": 3,
         "text": "Donaustadtbrücke",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4256,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4267,
-          "towards": "SEESTADT"
-        }
-      ]
+      "x": 729,
+      "y": 220
     },
     {
-      "name": "donaumarina",
-      "x": 714,
-      "y": 243,
+      "name": "Donaumarina",
       "label": {
         "x": 55,
         "y": 3,
         "text": "Donaumarina",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4255,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4268,
-          "towards": "SEESTADT"
-        }
-      ]
+      "x": 714,
+      "y": 243
     },
     {
-      "name": "stadion",
-      "x": 673,
-      "y": 229,
+      "name": "Stadion",
       "label": {
         "x": 30,
         "y": -8,
         "text": "Stadion",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4257,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4266,
-          "towards": "ASPERNSTRASSE"
-        }
-      ]
+      "x": 673,
+      "y": 229
     },
     {
-      "name": "krieau",
-      "x": 650,
-      "y": 209,
+      "name": "Krieau",
       "label": {
         "x": 30,
         "y": -8,
         "text": "Krieau",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4258,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4265,
-          "towards": "ASPERNSTRASSE"
-        }
-      ]
+      "x": 650,
+      "y": 209
     },
     {
-      "name": "messe-prater",
-      "x": 620,
-      "y": 184,
+      "name": "Messe",
       "label": {
         "x": 50,
         "y": -3,
         "text": "Messe-Prater",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4259,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4264,
-          "towards": "ASPERNSTRASSE"
-        }
-      ]
+      "x": 620,
+      "y": 184
     },
     {
-      "name": "praterstern",
-      "x": 570,
-      "y": 185,
+      "name": "Praterstern",
       "label": {
         "x": 45,
         "y": 12,
         "text": "Praterstern",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4260,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4263,
-          "towards": "SEESTADT"
-        }
-      ]
+      "x": 570,
+      "y": 185
     },
     {
-      "name": "taborstrasse",
-      "x": 534,
-      "y": 185,
+      "name": "Taborstraße",
       "label": {
         "x": 0,
         "y": -15,
         "text": "Taborstrasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4261,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4262,
-          "towards": "SEESTADT"
-        }
-      ]
+      "x": 534,
+      "y": 185
     },
     {
-      "name": "schottenring",
-      "x": 494,
-      "y": 185,
+      "name": "Schottenring",
       "label": {
         "x": -55,
         "y": 0,
         "text": "Schottenring",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4201,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4214,
-          "towards": "SEESTADT"
-        }
-      ]
+      "x": 494,
+      "y": 185
     },
     {
-      "name": "schottentor",
-      "x": 460,
-      "y": 217,
+      "name": "Schottentor",
       "label": {
         "x": -50,
         "y": 0,
         "text": "Schottentor",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4203,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4212,
-          "towards": "SEESTADT"
-        }
-      ]
+      "x": 460,
+      "y": 217
     },
     {
-      "name": "rathaus",
-      "x": 435,
-      "y": 244,
+      "name": "Rathaus",
       "label": {
         "x": -35,
         "y": 0,
         "text": "Rathaus",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4205,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4210,
-          "towards": "ASPERNSTRASSE"
-        }
-      ]
+      "x": 435,
+      "y": 244
     },
     {
-      "name": "volkstheater",
+      "name": "Volkstheater",
       "x": 434,
-      "y": 278,
-      "rbl": [
-        {
-          "id": 4209,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4206,
-          "towards": "ASPERNSTRASSE"
-        }
-      ]
+      "y": 278
     },
     {
-      "name": "museumsquartier",
-      "x": 434,
-      "y": 317,
+      "name": "Museumsquartier",
       "label": {
         "x": 60,
         "y": -10,
         "text": "Museumsquartier",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4211,
-          "towards": "KARLSPLATZ"
-        },
-        {
-          "id": 4204,
-          "towards": "ASPERNSTRASSE"
-        }
-      ]
+      "x": 434,
+      "y": 317
     },
     {
-      "name": "karlsplatz",
-      "x": 497,
-      "y": 355,
+      "name": "Karlsplatz",
       "label": {
         "x": 5,
         "y": 10,
         "text": "karlsplatz",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4202,
-          "towards": "SEESTADT"
-        }
-      ]
+      "x": 497,
+      "y": 355
     }
   ],
-  "u3": [
+  "U3": [
     {
-      "name": "ottakring",
-      "x": 125,
-      "y": 195,
+      "name": "Ottakring",
       "label": {
         "x": 25,
         "y": -30,
         "text": "Ottakring",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4931,
-          "towards": "SIMMERING"
-        }
-      ]
+      "x": 125,
+      "y": 195
     },
     {
-      "name": "kendlerstrasse",
-      "x": 153,
-      "y": 209,
+      "name": "Kendlerstraße",
       "label": {
         "x": 38,
         "y": -45,
         "text": "Kendlerstrasse",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4929,
-          "towards": "BITTE FAHRZIEL AM ZUG BEACHTEN"
-        }
-      ]
+      "x": 153,
+      "y": 209
     },
     {
-      "name": "huetteldorferstrasse",
-      "x": 182,
-      "y": 223,
+      "name": "Hütteldorfer Straße",
       "label": {
         "x": 48,
         "y": -55,
         "text": "Hütteldorferstrasse",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4933,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4928,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 182,
+      "y": 223
     },
     {
-      "name": "johnstrasse",
-      "x": 209,
-      "y": 237,
+      "name": "Johnstraße",
       "label": {
         "x": 35,
         "y": -35,
         "text": "Johnstrasse",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4926,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4925,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 209,
+      "y": 237
     },
     {
-      "name": "schweglerstrasse",
-      "x": 241,
-      "y": 252,
+      "name": "Schweglerstraße",
       "label": {
         "x": 48,
         "y": -50,
         "text": "Schweglerstrasse",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4927,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4924,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 241,
+      "y": 252
     },
     {
-      "name": "westbahnhof",
+      "name": "Westbahnhof",
       "x": 292,
-      "y": 278,
-      "rbl": [
-        {
-          "id": 4921,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4920,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "y": 278
     },
     {
-      "name": "zieglergasse",
-      "x": 343,
-      "y": 278,
+      "name": "Zieglergasse",
       "label": {
         "x": 0,
         "y": 12,
         "text": "Zieglergasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4922,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4919,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 343,
+      "y": 278
     },
     {
-      "name": "neubaugasse",
-      "x": 386,
-      "y": 278,
+      "name": "Neubaugasse",
       "label": {
         "x": 0,
         "y": 12,
         "text": "Neubaugasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4923,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4918,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 386,
+      "y": 278
     },
     {
-      "name": "volkstheater",
-      "x": 434,
-      "y": 278,
+      "name": "Volkstheater",
       "label": {
         "x": 35,
         "y": -35,
         "text": "Volkstheater",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4909,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4908,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 434,
+      "y": 278
     },
     {
-      "name": "herrengasse",
-      "x": 463,
-      "y": 278,
+      "name": "Herrengasse",
       "label": {
         "x": 35,
         "y": -35,
         "text": "Herrengasse",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4910,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4907,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 463,
+      "y": 278
     },
     {
-      "name": "stephansplatz",
+      "name": "Stephansplatz",
       "x": 495,
-      "y": 278,
-      "rbl": [
-        {
-          "id": 4911,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4906,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "y": 278
     },
     {
-      "name": "stubentor",
-      "x": 525,
-      "y": 278,
+      "name": "Stubentor",
       "label": {
         "x": 0,
         "y": -12,
         "text": "Stubentor",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4912,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4905,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 525,
+      "y": 278
     },
     {
-      "name": "landstrasse",
+      "name": "Landstraße",
       "x": 564,
-      "y": 280,
-      "rbl": [
-        {
-          "id": 4913,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4904,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "y": 280
     },
     {
-      "name": "rochusgasse",
-      "x": 592,
-      "y": 299,
+      "name": "Rochusgasse",
       "label": {
         "x": 50,
         "y": -3,
         "text": "Rochusgasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4914,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4903,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 592,
+      "y": 299
     },
     {
-      "name": "kardinal-nagl-platz",
-      "x": 618,
-      "y": 317,
+      "name": "Kardinal-Nagl-Platz",
       "label": {
         "x": 70,
         "y": -3,
         "text": "Kardinal-Nagl-Platz",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4915,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4902,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 618,
+      "y": 317
     },
     {
-      "name": "schlachthausgasse",
-      "x": 642,
-      "y": 335,
+      "name": "Schlachthausgasse",
       "label": {
         "x": 70,
         "y": -3,
         "text": "Schlachthausgasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4916,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4901,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 642,
+      "y": 335
     },
     {
-      "name": "erdberg",
-      "x": 673,
-      "y": 355,
+      "name": "Erdberg",
       "label": {
         "x": 40,
         "y": -3,
         "text": "Erdberg",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4917,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4900,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 673,
+      "y": 355
     },
     {
-      "name": "gasometer",
-      "x": 699,
-      "y": 374,
+      "name": "Gasometer",
       "label": {
         "x": 50,
         "y": -3,
         "text": "Gasometer",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4934,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4941,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 699,
+      "y": 374
     },
     {
-      "name": "zippererstrasse",
-      "x": 729,
-      "y": 396,
+      "name": "Zippererstraße",
       "label": {
         "x": 60,
         "y": -5,
         "text": "Zippererstrasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4935,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4940,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 729,
+      "y": 396
     },
     {
-      "name": "enkplatz",
-      "x": 757,
-      "y": 414,
+      "name": "Enkplatz",
       "label": {
         "x": 40,
         "y": -3,
         "text": "Enkplatz",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4936,
-          "towards": "SIMMERING"
-        },
-        {
-          "id": 4939,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 757,
+      "y": 414
     },
     {
-      "name": "simmering",
-      "x": 784,
-      "y": 434,
+      "name": "Simmering",
       "label": {
         "x": 45,
         "y": -3,
         "text": "Simmering",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4938,
-          "towards": "OTTAKRING"
-        }
-      ]
+      "x": 784,
+      "y": 434
     }
   ],
-  "u4": [
+  "U4": [
     {
-      "name": "huetteldorf",
-      "x": 6,
-      "y": 365,
+      "name": "Hütteldorf",
       "label": {
         "x": 20,
         "y": -35,
         "text": "Hütteldorf",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4401,
-          "towards": "HEILIGENSTADT"
-        }
-      ]
+      "x": 6,
+      "y": 365
     },
     {
-      "name": "oberstveit",
-      "x": 46,
-      "y": 365,
+      "name": "Ober St. Veit",
       "label": {
         "x": 25,
         "y": -40,
         "text": "Ober St. Veit",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4403,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4434,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "x": 46,
+      "y": 365
     },
     {
-      "name": "unterstveit",
-      "x": 86,
-      "y": 365,
+      "name": "Unter St. Veit",
       "label": {
         "x": 25,
         "y": -40,
         "text": "Unter St. Veit",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4405,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4432,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "x": 86,
+      "y": 365
     },
     {
-      "name": "braunschweiggasse",
-      "x": 126,
-      "y": 365,
+      "name": "Braunschweiggasse",
       "label": {
         "x": 40,
         "y": -55,
         "text": "Braunschweiggasse",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4407,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4430,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "x": 126,
+      "y": 365
     },
     {
-      "name": "hietzing",
-      "x": 166,
-      "y": 365,
+      "name": "Hietzing",
       "label": {
         "x": 20,
         "y": -35,
         "text": "Hietzing",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4409,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4428,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "x": 166,
+      "y": 365
     },
     {
-      "name": "schoenbrunn",
-      "x": 206,
-      "y": 365,
+      "name": "Schönbrunn",
       "label": {
         "x": 30,
         "y": -40,
         "text": "Schönbrunn",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4411,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4426,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "x": 206,
+      "y": 365
     },
     {
-      "name": "meidlinghauptstrasse",
-      "x": 246,
-      "y": 365,
+      "name": "Meidling Hauptstraße",
       "label": {
         "x": 50,
         "y": -65,
         "text": "Meidling Hauptstrasse",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4424,
-          "towards": "HÜTTELDORF"
-        },
-        {
-          "id": 4413,
-          "towards": "HEILIGENSTADT"
-        }
-      ]
+      "x": 246,
+      "y": 365
     },
     {
-      "name": "laengenfeldgasse",
+      "name": "Längenfeldgasse",
       "x": 295,
-      "y": 365,
-      "rbl": [
-        {
-          "id": 4437,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4438,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "y": 365
     },
     {
-      "name": "margaretenguertel",
-      "x": 340,
-      "y": 365,
+      "name": "Margaretengürtel",
       "label": {
         "x": 35,
         "y": -50,
         "text": "Margaretengürtel",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4415,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4422,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "x": 340,
+      "y": 365
     },
     {
-      "name": "pilgramgasse",
-      "x": 380,
-      "y": 365,
+      "name": "Pilgramgasse",
       "label": {
         "x": 30,
         "y": -45,
         "text": "Pilgramgasse",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4417,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4420,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "x": 380,
+      "y": 365
     },
     {
-      "name": "kettenbrueckengasse",
-      "x": 420,
-      "y": 365,
+      "name": "Kettenbrückengasse",
       "label": {
         "x": 0,
         "y": 15,
         "text": "Kettenbrückengasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4419,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4418,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "x": 420,
+      "y": 365
     },
     {
-      "name": "karlsplatz",
+      "name": "Karlsplatz",
       "x": 460,
-      "y": 365,
-      "rbl": [
-        {
-          "id": 4421,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4416,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "y": 365
     },
     {
-      "name": "stadtpark",
-      "x": 550,
-      "y": 330,
+      "name": "Stadtpark",
       "label": {
         "x": 40,
         "y": 0,
         "text": "Stadtpark",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4423,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4414,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "x": 550,
+      "y": 330
     },
     {
-      "name": "landstrasse",
-      "x": 564,
-      "y": 280,
+      "name": "Landstraße",
       "label": {
         "x": 47,
         "y": 0,
         "text": "Landstrasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4425,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4412,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "x": 564,
+      "y": 280
     },
     {
-      "name": "schwedenplatz",
+      "name": "Schwedenplatz",
       "x": 533,
-      "y": 224,
-      "rbl": [
-        {
-          "id": 4427,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4410,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "y": 224
     },
     {
-      "name": "schottenring",
+      "name": "Schottenring",
       "x": 495,
-      "y": 185,
-      "rbl": [
-        {
-          "id": 4429,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4408,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "y": 185
     },
     {
-      "name": "rossauerlaende",
-      "x": 469,
-      "y": 159,
+      "name": "Roßauer Lände",
       "label": {
         "x": 60,
         "y": -4,
         "text": "Rossauerlaende",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4431,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4406,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "x": 469,
+      "y": 159
     },
     {
-      "name": "friedensbruecke",
-      "x": 440,
-      "y": 130,
+      "name": "Friedensbrücke",
       "label": {
         "x": 60,
         "y": -4,
         "text": "Friedensbruecke",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4433,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4404,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "x": 440,
+      "y": 130
     },
     {
-      "name": "spittelau",
+      "name": "Spittelau",
       "x": 385,
-      "y": 75,
-      "rbl": [
-        {
-          "id": 4439,
-          "towards": "HEILIGENSTADT"
-        },
-        {
-          "id": 4440,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "y": 75
     },
     {
-      "name": "heiligenstadt",
-      "x": 385,
-      "y": 8,
+      "name": "Heiligenstadt",
       "label": {
         "x": 50,
         "y": 0,
         "text": "Heiligenstadt",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4402,
-          "towards": "HÜTTELDORF"
-        }
-      ]
+      "x": 385,
+      "y": 8
     }
   ],
-  "u6": [
+  "U6": [
     {
-      "name": "siebenhirten",
-      "x": 294,
-      "y": 557,
+      "name": "Siebenhirten",
       "label": {
         "x": 50,
         "y": 0,
         "text": "Siebenhirten",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4635,
-          "towards": "FLORIDSDORF"
-        }
-      ]
+      "x": 294,
+      "y": 557
     },
     {
-      "name": "perfektastrasse",
-      "x": 294,
-      "y": 531,
+      "name": "Perfektastraße",
       "label": {
         "x": 60,
         "y": 0,
         "text": "Perfektastrasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4636,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4633,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 531
     },
     {
-      "name": "erlaaerstrasse",
-      "x": 294,
-      "y": 505,
+      "name": "Erlaaer Straße",
       "label": {
         "x": 58,
         "y": 0,
         "text": "Erlaaerstrasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4637,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4632,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 505
     },
     {
-      "name": "alterlaa",
-      "x": 294,
-      "y": 479,
+      "name": "Alterlaa",
       "label": {
         "x": 35,
         "y": 0,
         "text": "Alterlaa",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4638,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4631,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 479
     },
     {
-      "name": "amschoepfwerk",
-      "x": 294,
-      "y": 453,
+      "name": "Schöpfwerk",
       "label": {
         "x": 60,
         "y": 0,
         "text": "Am Schöpfwerk",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4639,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4630,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 453
     },
     {
-      "name": "tscherttegasse",
-      "x": 294,
-      "y": 427,
+      "name": "Tscherttegasse",
       "label": {
         "x": 55,
         "y": 0,
         "text": "Tscherttegasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4640,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4629,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 427
     },
     {
-      "name": "bahnhofmeidling",
-      "x": 294,
-      "y": 401,
+      "name": "Philadelphiabrücke",
       "label": {
         "x": 60,
         "y": 0,
         "text": "Bahnof Meidling",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4615,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4614,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 401
     },
     {
-      "name": "laengenfeldgasse",
-      "x": 294,
-      "y": 370,
+      "name": "Längenfeldgasse",
       "label": {
         "x": 60,
         "y": 10,
         "text": "Längenfeldgasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4617,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4612,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 370
     },
     {
-      "name": "gumpendorferstrasse",
-      "x": 294,
-      "y": 316,
+      "name": "Gumpendorfer Straße",
       "label": {
         "x": 80,
         "y": 0,
         "text": "Gumpendorferstrasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4618,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4611,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 316
     },
     {
-      "name": "westbahnhof",
-      "x": 294,
-      "y": 278,
+      "name": "Westbahnhof",
       "label": {
         "x": -60,
         "y": 10,
         "text": "Westbahnhof",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4619,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4610,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 278
     },
     {
-      "name": "burggasse-stadthalle",
-      "x": 294,
-      "y": 250,
+      "name": "Burggasse - Stadthalle",
       "label": {
         "x": 77,
         "y": 0,
         "text": "Burggasse-Stadthalle",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4620,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4609,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 250
     },
     {
-      "name": "thaliastrasse",
-      "x": 294,
-      "y": 228,
+      "name": "Thaliastraße",
       "label": {
         "x": 50,
         "y": 0,
         "text": "Thaliastrasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4621,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4608,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 228
     },
     {
-      "name": "josefstaedterstrasse",
-      "x": 294,
-      "y": 205,
+      "name": "Josefstädter Straße",
       "label": {
         "x": 70,
         "y": 0,
         "text": "Josefstädterstrasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4622,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4607,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 205
     },
     {
-      "name": "alserstrasse",
-      "x": 294,
-      "y": 181,
+      "name": "Alser Straße",
       "label": {
         "x": 50,
         "y": 0,
         "text": "Alserstrasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4623,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4606,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 181
     },
     {
-      "name": "michelbeuern-akh",
-      "x": 294,
-      "y": 153,
+      "name": "Michelbeuern - AKH",
       "label": {
         "x": 68,
         "y": 0,
         "text": "Michelbeuern-AKH",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4624,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4605,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 153
     },
     {
-      "name": "waehringerstrasse-volksoper",
-      "x": 294,
-      "y": 118,
+      "name": "Währinger Straße - Volksoper",
       "label": {
         "x": 100,
         "y": 3,
         "text": "Währingerstrasse-Volksoper",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4625,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4604,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 294,
+      "y": 118
     },
     {
-      "name": "nussdorferstrasse",
-      "x": 335,
-      "y": 76,
+      "name": "Nußdorfer Straße",
       "label": {
         "x": 0,
         "y": -12,
         "text": "Nussdorferstrasse",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4626,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4603,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 335,
+      "y": 76
     },
     {
-      "name": "spittelau",
-      "x": 385,
-      "y": 75,
+      "name": "Spittelau",
       "label": {
         "x": 30,
         "y": -30,
         "text": "Spittelau",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4627,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4651,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 385,
+      "y": 75
     },
     {
-      "name": "jaegerstrasse",
-      "x": 420,
-      "y": 76,
+      "name": "Jägerstraße",
       "label": {
         "x": 18,
         "y": -40,
         "text": "Jägerstrasse",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4641,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4650,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 420,
+      "y": 76
     },
     {
-      "name": "dresdnerstrasse",
-      "x": 450,
-      "y": 76,
+      "name": "Dresdner Straße",
       "label": {
         "x": 35,
         "y": -50,
         "text": "Dresdnerstrasse",
         "rotation": 5.5
       },
-      "rbl": [
-        {
-          "id": 4642,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4649,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 450,
+      "y": 76
     },
     {
-      "name": "handelskai",
-      "x": 490,
-      "y": 76,
+      "name": "Handelskai",
       "label": {
         "x": 50,
         "y": 3,
         "text": "Handelskai",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4643,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4648,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 490,
+      "y": 76
     },
     {
-      "name": "neuedonau",
-      "x": 522,
-      "y": 42,
+      "name": "Neue Donau",
       "label": {
         "x": 50,
         "y": 5,
         "text": "Neue Donau",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4644,
-          "towards": "FLORIDSDORF"
-        },
-        {
-          "id": 4647,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 522,
+      "y": 42
     },
     {
-      "name": "floridsdorf",
-      "x": 556,
-      "y": 8,
+      "name": "Floridsdorf",
       "label": {
         "x": 45,
         "y": 0,
         "text": "Floridsdorf",
         "rotation": 0
       },
-      "rbl": [
-        {
-          "id": 4646,
-          "towards": "SIEBENHIRTEN"
-        }
-      ]
+      "x": 556,
+      "y": 8
     }
   ]
 }

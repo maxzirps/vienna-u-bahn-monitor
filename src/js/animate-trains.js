@@ -1,5 +1,3 @@
-const stationNamesMap = require("../../data/station-names-map.json");
-
 function animateTrain(two, from, to, time) {
   const circle = two.makeCircle(from.x, from.y, 3);
   circle.fill = "#fff";
@@ -65,7 +63,7 @@ function startTrainAnimations(two, stations) {
     )
   ).then((res) =>
     res.forEach((lineData) =>
-      animateLine(two, lineData.data.monitors, stations)
+     console.log(lineData) &&  animateLine(two, lineData.data.monitors, stations)
     )
   );
 }
