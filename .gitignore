@@ -2,3 +2,4 @@
 dist
 .cache
 plan.png
+.parcel-cache
